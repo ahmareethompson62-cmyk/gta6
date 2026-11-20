@@ -1,0 +1,32 @@
+name: Join parts and publish MP4 release
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/make-release.yml'
+permissions:
+  contents: write
+jobs:
+  join-and-release:
+    runs-on: windows-2025
+    steps:
+      - uses: actions/checkout@v4
+      - name: Join parts (byte-exact, no re-encode)
+        shell: cmd
+        run: |
+          cd v3
+          copy /b GTA6_might_be_worse_v3.mp4.00.part + GTA6_might_be_worse_v3.mp4.01.part GTA6_might_be_worse_v3.mp4
+      - name: Verify SHA-256
+        shell: pwsh
+        run: |
+          $expected = (Get-Content v3/SHA256.txt).Split(' ')[0].ToLower()
+          $actual = (Get-FileHash v3/GTA6_might_be_worse_v3.mp4 -Algorithm SHA256).Hash.ToLower()
+          Write-Host "expected $expected"; Write-Host "actual   $actual"
+          if ($expected -ne $actual) { throw "SHA-256 mismatch" }
+      - name: Create release with the single MP4
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete v3-final --yes --cleanup-tag 2>$null
+          gh release create v3-final v3/GTA6_might_be_worse_v3.mp4 --title "GTA 6 Might Be Worse Than We Thought - v3 (full quality)" --notes "Single MP4, byte-exact join of the two parts. SHA-256 24f482a28b8db5a1de4f811422aaccd6c328c3cedbce1ef2cec36c9f5cc415ec"

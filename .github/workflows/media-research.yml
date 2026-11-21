@@ -90,6 +90,7 @@ jobs:
           export PLAN="${{ needs.setup.outputs.plan }}"
           mkdir -p /tmp/rr && cp package/asset_manifest.json package/report.md /tmp/rr/
           git config user.name "media-research[bot]"; git config user.email "noreply@github.com"
+          PP="${PLAN%.json}.permissions.json"; cp "$PP" /tmp/rr/permissions.json 2>/dev/null || true
           git fetch origin research-results 2>/dev/null && git checkout research-results || git checkout --orphan research-results
           git rm -rf . >/dev/null 2>&1 || true
           mkdir -p $RUN && cp /tmp/rr/* $RUN/
@@ -97,7 +98,7 @@ jobs:
           python3 - <<'PY'
           import json,re,shutil,os
           RUN=os.environ['RUN']
-          pp=os.environ['PLAN'].replace('.json','.permissions.json')
+          pp='/tmp/rr/permissions.json'
           COMMIT_APPROVED=os.path.exists(pp) and json.load(open(pp)).get('commit_approved_media',False)
           m=json.load(open('/tmp/rr/asset_manifest.json'))
           for a in m['assets']:

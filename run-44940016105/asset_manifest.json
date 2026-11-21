@@ -1,0 +1,44 @@
+{
+ "project": "leonida-real-world-reference",
+ "topic": "Real-world Florida locations behind GTA 6's Vice City and Leonida",
+ "assets": [
+  {
+   "asset_id": "A001",
+   "filename": null,
+   "asset_type": "image",
+   "original_url": "https://live.staticflickr.com/4078/4863402225_e322905239_b.jpg",
+   "source_name": "flickr",
+   "source_author": "luismc75",
+   "publication_date": null,
+   "title": null,
+   "chapter": [
+    "Gullet Marsh and the Everglades",
+    "The Keys",
+    "Vice City and Miami Beach"
+   ],
+   "narration_segment": [
+    "loc-1",
+    "loc-2",
+    "loc-3"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": null,
+   "relevance_score": 0.33,
+   "resolution": null,
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": "approved by MECHANISM TEST (not a real approval; CC image) on 2026-11-21: pipeline test only",
+   "download_status": "inaccessible",
+   "verification_status": "unverified",
+   "used_in_final_video": false,
+   "reason": "http 403 text/html",
+   "evidence": null,
+   "page_url": "https://www.flickr.com/photos/71722325@N00/4863402225",
+   "caption": null,
+   "image_url": "https://live.staticflickr.com/4078/4863402225_e322905239_b.jpg",
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
+  }
+ ]
+}

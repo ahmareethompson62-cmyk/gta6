@@ -3,122 +3,6 @@
  "topic": "GTA 6 vehicle crash physics",
  "assets": [
   {
-   "asset_id": "A001s",
-   "filename": "assets/research/screenshots/A001s_official_0.jpg",
-   "asset_type": "screenshot",
-   "original_url": "https://www.rockstargames.com/VI",
-   "source_name": "Rockstar Games",
-   "source_author": null,
-   "publication_date": null,
-   "title": "Grand Theft Auto VI - Rockstar Games",
-   "chapter": [
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": "keyword matches: Grand Theft Auto VI",
-   "relevance_score": 0.25,
-   "resolution": "1920x1080",
-   "duration": null,
-   "license_information": null,
-   "usage_permissions": "unknown",
-   "download_status": "captured (page screenshot; usage unverified)",
-   "verification_status": "file_ok_low_relevance_needs_human_check",
-   "used_in_final_video": false,
-   "reason": null,
-   "evidence": [],
-   "page_url": null
-  },
-  {
-   "asset_id": "A002",
-   "filename": "assets/research/images/A002_official_0_0.jpg",
-   "asset_type": "image",
-   "original_url": "https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?TfXRuFEcaoj7Q2oKW_PXW",
-   "source_name": "Rockstar Games",
-   "source_author": null,
-   "publication_date": null,
-   "title": null,
-   "chapter": [
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": "keyword matches: Grand Theft Auto VI",
-   "relevance_score": 0.25,
-   "resolution": "1200x630",
-   "duration": null,
-   "license_information": null,
-   "usage_permissions": "official source: promotional use not verified",
-   "download_status": "downloaded",
-   "verification_status": "file_ok_low_relevance_needs_human_check",
-   "used_in_final_video": false,
-   "reason": null,
-   "evidence": null,
-   "page_url": "https://www.rockstargames.com/VI"
-  },
-  {
-   "asset_id": "A003s",
-   "filename": null,
-   "asset_type": "screenshot",
-   "original_url": "https://www.rockstargames.com/newswire",
-   "source_name": "Rockstar Games",
-   "source_author": "Rockstar Games",
-   "publication_date": null,
-   "title": "Newswire - Rockstar Games",
-   "chapter": [
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": 0.0,
-   "resolution": "1920x1080",
-   "duration": null,
-   "license_information": null,
-   "usage_permissions": null,
-   "download_status": "captured (page screenshot; usage unverified)",
-   "verification_status": "rejected",
-   "used_in_final_video": false,
-   "reason": "low relevance to plan keywords (0.0)",
-   "evidence": [],
-   "page_url": null
-  },
-  {
-   "asset_id": "A004",
-   "filename": null,
-   "asset_type": "image",
-   "original_url": "https://media-rockstargames-com.akamaized.net/favicons/rockstar/favicon-180x180.png",
-   "source_name": "Rockstar Games",
-   "source_author": "Rockstar Games",
-   "publication_date": null,
-   "title": null,
-   "chapter": [
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": 0.0,
-   "resolution": "180x180",
-   "duration": null,
-   "license_information": null,
-   "usage_permissions": "official source: promotional use not verified",
-   "download_status": "downloaded",
-   "verification_status": "rejected",
-   "used_in_final_video": false,
-   "reason": "too small (180x180)",
-   "evidence": null,
-   "page_url": "https://www.rockstargames.com/newswire"
-  },
-  {
    "asset_id": "A005s",
    "filename": "assets/research/screenshots/A005s_web-news-a_0.jpg",
    "asset_type": "screenshot",
@@ -148,7 +32,11 @@
     "Factor in the realistic-looking crashes and you might just end up forgetting you're in-game and calling 911.",
     "Okay, maybe it's not quite that immersive, but the much-improved physics highlighted in vehicle collisions certainly add to the overall hyper-realistic visual effects."
    ],
-   "page_url": null
+   "page_url": null,
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": "needs human permission decision (usage unverified)"
   },
   {
    "asset_id": "A006",
@@ -177,7 +65,11 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://www.jalopnik.com/2321357/how-gta-6-grand-theft-auto-uses-soft-body-physics-realistic-car-crashes/"
+   "page_url": "https://www.jalopnik.com/2321357/how-gta-6-grand-theft-auto-uses-soft-body-physics-realistic-car-crashes/",
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
    "asset_id": "A007",
@@ -197,7 +89,7 @@
    "suggested_timestamp": null,
    "relevance_reason": "keyword matches: damage, soft-body, crash, collision, physics",
    "relevance_score": 0.83,
-   "resolution": null,
+   "resolution": "780x438",
    "duration": null,
    "license_information": null,
    "usage_permissions": "unknown: not downloaded (no open licence identified)",
@@ -206,7 +98,11 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://www.jalopnik.com/2321357/how-gta-6-grand-theft-auto-uses-soft-body-physics-realistic-car-crashes/"
+   "page_url": "https://www.jalopnik.com/2321357/how-gta-6-grand-theft-auto-uses-soft-body-physics-realistic-car-crashes/",
+   "caption": "",
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
    "asset_id": "A008",
@@ -226,7 +122,7 @@
    "suggested_timestamp": null,
    "relevance_reason": "keyword matches: damage, soft-body, crash, collision, physics",
    "relevance_score": 0.83,
-   "resolution": null,
+   "resolution": "780x438",
    "duration": null,
    "license_information": null,
    "usage_permissions": "unknown: not downloaded (no open licence identified)",
@@ -235,11 +131,15 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://www.jalopnik.com/2321357/how-gta-6-grand-theft-auto-uses-soft-body-physics-realistic-car-crashes/"
+   "page_url": "https://www.jalopnik.com/2321357/how-gta-6-grand-theft-auto-uses-soft-body-physics-realistic-car-crashes/",
+   "caption": "",
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A009s",
-   "filename": "assets/research/screenshots/A009s_web-news-a_1.jpg",
+   "asset_id": "A010s",
+   "filename": "assets/research/screenshots/A010s_web-news-a_1.jpg",
    "asset_type": "screenshot",
    "original_url": "https://gtaintel.com/news/gta-6-physics-and-destruction",
    "source_name": "gtaintel.com",
@@ -267,10 +167,14 @@
     "GTA 6 physics and destruction expectations based on RAGE and RDR2, with confirmed facts kept strictly separate from what is only expected or rumored.",
     "GTA 6 physics and destruction is one of the most discussed unknowns ahead of launch, and most of what fans repeat online is expectation rather\u2026"
    ],
-   "page_url": null
+   "page_url": null,
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": "needs human permission decision (usage unverified)"
   },
   {
-   "asset_id": "A010",
+   "asset_id": "A011",
    "filename": null,
    "asset_type": "image",
    "original_url": "https://gtaintel.com/images/articles/gta-6-physics-and-destruction.png",
@@ -296,10 +200,14 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://gtaintel.com/news/gta-6-physics-and-destruction"
+   "page_url": "https://gtaintel.com/news/gta-6-physics-and-destruction",
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A011",
+   "asset_id": "A012",
    "filename": null,
    "asset_type": "image",
    "original_url": "https://gtaintel.com/cdn-cgi/image/width=828,quality=75,format=auto,onerror=redirect/images/articles/gta-6-physics-and-destruction.png",
@@ -316,7 +224,7 @@
    "suggested_timestamp": null,
    "relevance_reason": "keyword matches: damage, deformation, crash, collision, physics",
    "relevance_score": 0.83,
-   "resolution": null,
+   "resolution": "800x449",
    "duration": null,
    "license_information": null,
    "usage_permissions": "unknown: not downloaded (no open licence identified)",
@@ -325,71 +233,54 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://gtaintel.com/news/gta-6-physics-and-destruction"
+   "page_url": "https://gtaintel.com/news/gta-6-physics-and-destruction",
+   "caption": "",
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A012s",
+   "asset_id": "A009",
    "filename": null,
-   "asset_type": "screenshot",
-   "original_url": "https://www.thedrive.com/news/gta-6-driving-physics-hint-at-return-to-the-realism-of-gta-4.md",
-   "source_name": "thedrive.com",
-   "source_author": null,
+   "asset_type": "video",
+   "original_url": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+   "source_name": null,
+   "source_author": "Rockstar Games",
    "publication_date": null,
-   "title": "",
+   "title": "Grand Theft Auto VI: An Extended Look",
    "chapter": [
     "Vehicle damage and soft-body physics"
    ],
    "narration_segment": [
     "phys-1"
    ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": 0.0,
-   "resolution": "1920x1080",
-   "duration": null,
-   "license_information": null,
-   "usage_permissions": null,
-   "download_status": "captured (page screenshot; usage unverified)",
-   "verification_status": "rejected",
-   "used_in_final_video": false,
-   "reason": "low relevance to plan keywords (0.0)",
-   "evidence": [],
-   "page_url": null
-  },
-  {
-   "asset_id": "A013",
-   "filename": null,
-   "asset_type": "article",
-   "original_url": "https://www.sportskeeda.com/gta/news-first-look-gta-6-car-deformation-physics-seemingly-found-trailer",
-   "source_name": null,
-   "source_author": null,
-   "publication_date": null,
-   "title": null,
-   "chapter": [
-    "Comparison with earlier GTA games",
-    "Vehicle damage and soft-body physics"
+   "suggested_timestamp": [
+    {
+     "start": 849,
+     "end": null,
+     "caption_excerpt": "timestamp taken from the article link (t= parameter)"
+    }
    ],
-   "narration_segment": [
-    "phys-1",
-    "phys-2"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": null,
+   "relevance_reason": "caption cues mention plan keywords",
+   "relevance_score": 0.33,
    "resolution": null,
    "duration": null,
    "license_information": null,
-   "usage_permissions": null,
-   "download_status": "inaccessible",
+   "usage_permissions": "not downloaded: embedded third-party video; use link + timestamp or ask the owner",
+   "download_status": "link_only",
    "verification_status": "unverified",
    "used_in_final_video": false,
-   "reason": "http 405 or bot/consent wall",
+   "reason": null,
    "evidence": null,
-   "page_url": null
+   "page_url": "https://www.jalopnik.com/2321357/how-gta-6-grand-theft-auto-uses-soft-body-physics-realistic-car-crashes/",
+   "caption": null,
+   "context": "Rockstar Games",
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A014s",
-   "filename": "assets/research/screenshots/A014s_web-news-b_1.jpg",
+   "asset_id": "A015s",
+   "filename": "assets/research/screenshots/A015s_web-news-b_1.jpg",
    "asset_type": "screenshot",
    "original_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why",
    "source_name": "Creative Bloq",
@@ -419,10 +310,14 @@
     "He notes the addition body jiggle physics and muscle deformation to make character movements look highly realistic.",
     "High quality light flare (22/23) pic.twitter.com/mWjA3JXQldMay 6, 2025 Hair also behaves much more realistically, with convincing movement and shadows thanks to some complex physics simulation\u2026"
    ],
-   "page_url": null
+   "page_url": null,
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": "needs human permission decision (usage unverified)"
   },
   {
-   "asset_id": "A015",
+   "asset_id": "A016",
    "filename": null,
    "asset_type": "image",
    "original_url": "https://cdn.mos.cms.futurecdn.net/CakrLCZ7yS5NciK5sXEE8A-1200-80.jpg",
@@ -450,10 +345,14 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why"
+   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why",
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A016",
+   "asset_id": "A017",
    "filename": null,
    "asset_type": "image",
    "original_url": "https://img.youtube.com/vi/_YSI2TYD1Rk/maxresdefault.jpg",
@@ -472,7 +371,7 @@
    "suggested_timestamp": null,
    "relevance_reason": "keyword matches: deformation, physics",
    "relevance_score": 0.29,
-   "resolution": null,
+   "resolution": "1280x720",
    "duration": null,
    "license_information": null,
    "usage_permissions": "unknown: not downloaded (no open licence identified)",
@@ -481,10 +380,14 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why"
+   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why",
+   "caption": "",
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A017",
+   "asset_id": "A018",
    "filename": null,
    "asset_type": "image",
    "original_url": "https://img.youtube.com/vi/3ih0mVAGQfc/maxresdefault.jpg",
@@ -503,7 +406,7 @@
    "suggested_timestamp": null,
    "relevance_reason": "keyword matches: deformation, physics",
    "relevance_score": 0.29,
-   "resolution": null,
+   "resolution": "1280x720",
    "duration": null,
    "license_information": null,
    "usage_permissions": "unknown: not downloaded (no open licence identified)",
@@ -512,10 +415,14 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why"
+   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why",
+   "caption": "",
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A018",
+   "asset_id": "A019",
    "filename": null,
    "asset_type": "image",
    "original_url": "https://cdn.mos.cms.futurecdn.net/LjcSPhpqoJcvaTMtcm22ML-970-80.png.webp",
@@ -534,7 +441,7 @@
    "suggested_timestamp": null,
    "relevance_reason": "keyword matches: deformation, physics",
    "relevance_score": 0.29,
-   "resolution": null,
+   "resolution": "970x533",
    "duration": null,
    "license_information": null,
    "usage_permissions": "unknown: not downloaded (no open licence identified)",
@@ -543,10 +450,14 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why"
+   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why",
+   "caption": "Hair casts realistic shadow in GTA 6 (left) compared with the uncanny look of GTA 5 (Image credit: Grizzly Bear via YouTube)",
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A019",
+   "asset_id": "A020",
    "filename": null,
    "asset_type": "image",
    "original_url": "https://cdn.mos.cms.futurecdn.net/wLxERHZeHhunHSkpFUY2qK-970-80.png.webp",
@@ -565,7 +476,7 @@
    "suggested_timestamp": null,
    "relevance_reason": "keyword matches: deformation, physics",
    "relevance_score": 0.29,
-   "resolution": null,
+   "resolution": "970x549",
    "duration": null,
    "license_information": null,
    "usage_permissions": "unknown: not downloaded (no open licence identified)",
@@ -574,10 +485,284 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why"
+   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why",
+   "caption": "Beards look much better in low light in GTA 6 (left) (Image credit: Grizzly Bear via YouTube)",
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A020s",
+   "asset_id": "A001s",
+   "filename": "assets/research/screenshots/A001s_official_0.jpg",
+   "asset_type": "screenshot",
+   "original_url": "https://www.rockstargames.com/VI",
+   "source_name": "Rockstar Games",
+   "source_author": null,
+   "publication_date": null,
+   "title": "Grand Theft Auto VI - Rockstar Games",
+   "chapter": [
+    "Vehicle damage and soft-body physics"
+   ],
+   "narration_segment": [
+    "phys-1"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": "keyword matches: Grand Theft Auto VI",
+   "relevance_score": 0.25,
+   "resolution": "1920x1080",
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": "unknown",
+   "download_status": "captured (page screenshot; usage unverified)",
+   "verification_status": "file_ok_low_relevance_needs_human_check",
+   "used_in_final_video": false,
+   "reason": null,
+   "evidence": [],
+   "page_url": null,
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": "needs human permission decision (usage unverified)"
+  },
+  {
+   "asset_id": "A002",
+   "filename": "assets/research/images/A002_official_0_0.jpg",
+   "asset_type": "image",
+   "original_url": "https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?TfXRuFEcaoj7Q2oKW_PXW",
+   "source_name": "Rockstar Games",
+   "source_author": null,
+   "publication_date": null,
+   "title": null,
+   "chapter": [
+    "Vehicle damage and soft-body physics"
+   ],
+   "narration_segment": [
+    "phys-1"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": "keyword matches: Grand Theft Auto VI",
+   "relevance_score": 0.25,
+   "resolution": "1200x630",
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": "official source: promotional use not verified",
+   "download_status": "downloaded",
+   "verification_status": "file_ok_low_relevance_needs_human_check",
+   "used_in_final_video": false,
+   "reason": null,
+   "evidence": null,
+   "page_url": "https://www.rockstargames.com/VI",
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": "needs human permission decision (usage unverified)"
+  },
+  {
+   "asset_id": "A003s",
+   "filename": null,
+   "asset_type": "screenshot",
+   "original_url": "https://www.rockstargames.com/newswire",
+   "source_name": "Rockstar Games",
+   "source_author": "Rockstar Games",
+   "publication_date": null,
+   "title": "Newswire - Rockstar Games",
+   "chapter": [
+    "Vehicle damage and soft-body physics"
+   ],
+   "narration_segment": [
+    "phys-1"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": null,
+   "relevance_score": 0.0,
+   "resolution": "1920x1080",
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": null,
+   "download_status": "captured (page screenshot; usage unverified)",
+   "verification_status": "rejected",
+   "used_in_final_video": false,
+   "reason": "low relevance to plan keywords (0.0)",
+   "evidence": [],
+   "page_url": null,
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
+  },
+  {
+   "asset_id": "A004",
+   "filename": null,
+   "asset_type": "image",
+   "original_url": "https://media-rockstargames-com.akamaized.net/favicons/rockstar/favicon-180x180.png",
+   "source_name": "Rockstar Games",
+   "source_author": "Rockstar Games",
+   "publication_date": null,
+   "title": null,
+   "chapter": [
+    "Vehicle damage and soft-body physics"
+   ],
+   "narration_segment": [
+    "phys-1"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": null,
+   "relevance_score": 0.0,
+   "resolution": "180x180",
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": "official source: promotional use not verified",
+   "download_status": "downloaded",
+   "verification_status": "rejected",
+   "used_in_final_video": false,
+   "reason": "too small (180x180)",
+   "evidence": null,
+   "page_url": "https://www.rockstargames.com/newswire",
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
+  },
+  {
+   "asset_id": "A013s",
+   "filename": null,
+   "asset_type": "screenshot",
+   "original_url": "https://www.thedrive.com/news/gta-6-driving-physics-hint-at-return-to-the-realism-of-gta-4.md",
+   "source_name": "thedrive.com",
+   "source_author": null,
+   "publication_date": null,
+   "title": "",
+   "chapter": [
+    "Vehicle damage and soft-body physics"
+   ],
+   "narration_segment": [
+    "phys-1"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": null,
+   "relevance_score": 0.0,
+   "resolution": "1920x1080",
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": null,
+   "download_status": "captured (page screenshot; usage unverified)",
+   "verification_status": "rejected",
+   "used_in_final_video": false,
+   "reason": "low relevance to plan keywords (0.0)",
+   "evidence": [],
+   "page_url": null,
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
+  },
+  {
+   "asset_id": "A014",
+   "filename": null,
+   "asset_type": "article",
+   "original_url": "https://www.sportskeeda.com/gta/news-first-look-gta-6-car-deformation-physics-seemingly-found-trailer",
+   "source_name": null,
+   "source_author": null,
+   "publication_date": null,
+   "title": null,
+   "chapter": [
+    "Comparison with earlier GTA games",
+    "Vehicle damage and soft-body physics"
+   ],
+   "narration_segment": [
+    "phys-1",
+    "phys-2"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": null,
+   "relevance_score": null,
+   "resolution": null,
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": null,
+   "download_status": "inaccessible",
+   "verification_status": "unverified",
+   "used_in_final_video": false,
+   "reason": "http 405 or bot/consent wall",
+   "evidence": null,
+   "page_url": null,
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
+  },
+  {
+   "asset_id": "A021",
+   "filename": null,
+   "asset_type": "video",
+   "original_url": "https://www.youtube.com/watch?v=_YSI2TYD1Rk",
+   "source_name": null,
+   "source_author": "GuillaumeDGNS",
+   "publication_date": null,
+   "title": "Grand Theft Auto VI Trailer 2 - 8X Slowed Ultra HD Cinematic",
+   "chapter": [
+    "Comparison with earlier GTA games",
+    "Vehicle damage and soft-body physics"
+   ],
+   "narration_segment": [
+    "phys-1",
+    "phys-2"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": null,
+   "relevance_score": 0.0,
+   "resolution": null,
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": "not downloaded: embedded third-party video; use link + timestamp or ask the owner",
+   "download_status": "link_only",
+   "verification_status": "unverified",
+   "used_in_final_video": false,
+   "reason": null,
+   "evidence": null,
+   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why",
+   "caption": null,
+   "context": "Watch On",
+   "editor_eligible": false,
+   "eligibility_reason": null
+  },
+  {
+   "asset_id": "A022",
+   "filename": null,
+   "asset_type": "video",
+   "original_url": "https://www.youtube.com/watch?v=3ih0mVAGQfc",
+   "source_name": null,
+   "source_author": "GRIZZLY BEAR",
+   "publication_date": null,
+   "title": "GTA 6 VS GTA 5 GRAPHICS AND DETAILS COMPARISON",
+   "chapter": [
+    "Comparison with earlier GTA games",
+    "Vehicle damage and soft-body physics"
+   ],
+   "narration_segment": [
+    "phys-1",
+    "phys-2"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": null,
+   "relevance_score": 0.0,
+   "resolution": null,
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": "not downloaded: embedded third-party video; use link + timestamp or ask the owner",
+   "download_status": "link_only",
+   "verification_status": "unverified",
+   "used_in_final_video": false,
+   "reason": null,
+   "evidence": null,
+   "page_url": "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why",
+   "caption": null,
+   "context": "Watch On",
+   "editor_eligible": false,
+   "eligibility_reason": null
+  },
+  {
+   "asset_id": "A023s",
    "filename": null,
    "asset_type": "screenshot",
    "original_url": "https://purexbox.com/news/2023/12/digital-foundry-breaks-down-grand-theft-auto-6-trailer-1",
@@ -605,10 +790,14 @@
    "used_in_final_video": false,
    "reason": "low relevance to plan keywords (0.0)",
    "evidence": [],
-   "page_url": null
+   "page_url": null,
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A021",
+   "asset_id": "A024",
    "filename": null,
    "asset_type": "image",
    "original_url": "https://images.purexbox.com/06495e9f33272/1280x720.jpg",
@@ -636,17 +825,21 @@
    "used_in_final_video": false,
    "reason": null,
    "evidence": null,
-   "page_url": "https://purexbox.com/news/2023/12/digital-foundry-breaks-down-grand-theft-auto-6-trailer-1"
+   "page_url": "https://purexbox.com/news/2023/12/digital-foundry-breaks-down-grand-theft-auto-6-trailer-1",
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A022",
+   "asset_id": "A025",
    "filename": null,
    "asset_type": "video",
-   "original_url": "https://www.youtube.com/watch?v=vJXq1YOTtjA",
+   "original_url": "https://www.youtube.com/watch?v=obiC2OzgThc",
    "source_name": null,
-   "source_author": "Will Mac",
+   "source_author": "Digital Foundry",
    "publication_date": null,
-   "title": "GTA 6 Car System Is Wild!! Physics, Economy, and Destruction!!!",
+   "title": "Grand Theft Auto 6 - DF Direct GTA 6 Special - Trailer 1 Tech Breakdown",
    "chapter": [
     "Comparison with earlier GTA games",
     "Vehicle damage and soft-body physics"
@@ -657,51 +850,24 @@
    ],
    "suggested_timestamp": null,
    "relevance_reason": null,
-   "relevance_score": null,
+   "relevance_score": 0.0,
    "resolution": null,
-   "duration": 505,
+   "duration": null,
    "license_information": null,
-   "usage_permissions": null,
+   "usage_permissions": "not downloaded: embedded third-party video; use link + timestamp or ask the owner",
    "download_status": "link_only",
    "verification_status": "unverified",
    "used_in_final_video": false,
-   "reason": "metadata unavailable: ERROR: [youtube] vJXq1YOTtjA: This content isn\u2019t available.",
+   "reason": null,
    "evidence": null,
-   "page_url": null
+   "page_url": "https://purexbox.com/news/2023/12/digital-foundry-breaks-down-grand-theft-auto-6-trailer-1",
+   "caption": null,
+   "context": "",
+   "editor_eligible": false,
+   "eligibility_reason": null
   },
   {
-   "asset_id": "A023",
-   "filename": null,
-   "asset_type": "video",
-   "original_url": "https://www.youtube.com/watch?v=BNQ91TkM6Zc",
-   "source_name": null,
-   "source_author": "DBK",
-   "publication_date": null,
-   "title": "GTA 6 Car Physics Leak: Is It Better Than GTA 4 and GTA 5?",
-   "chapter": [
-    "Comparison with earlier GTA games",
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1",
-    "phys-2"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": null,
-   "resolution": null,
-   "duration": 583,
-   "license_information": null,
-   "usage_permissions": null,
-   "download_status": "link_only",
-   "verification_status": "unverified",
-   "used_in_final_video": false,
-   "reason": "metadata unavailable: ERROR: [youtube] BNQ91TkM6Zc: This content isn\u2019t available.",
-   "evidence": null,
-   "page_url": null
-  },
-  {
-   "asset_id": "A024",
+   "asset_id": "A026",
    "filename": null,
    "asset_type": "video",
    "original_url": "https://www.youtube.com/watch?v=6djDtXdjIdw",
@@ -727,164 +893,13 @@
    "download_status": "link_only",
    "verification_status": "unverified",
    "used_in_final_video": false,
-   "reason": "metadata unavailable: ERROR: [youtube] 6djDtXdjIdw: This content isn\u2019t available.",
+   "reason": "bot check; stopped",
    "evidence": null,
-   "page_url": null
-  },
-  {
-   "asset_id": "A025",
-   "filename": null,
-   "asset_type": "video",
-   "original_url": "https://www.youtube.com/watch?v=OwrfCQlidhY",
-   "source_name": null,
-   "source_author": "KrisBN",
-   "publication_date": null,
-   "title": "GTA 6 CAR PHYSICS AND DAMAGE! Everything We Know!",
-   "chapter": [
-    "Comparison with earlier GTA games",
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1",
-    "phys-2"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": null,
-   "resolution": null,
-   "duration": 492,
-   "license_information": null,
-   "usage_permissions": null,
-   "download_status": "link_only",
-   "verification_status": "unverified",
-   "used_in_final_video": false,
-   "reason": "metadata unavailable: ERROR: [youtube] OwrfCQlidhY: This content isn\u2019t available.",
-   "evidence": null,
-   "page_url": null
-  },
-  {
-   "asset_id": "A026",
-   "filename": null,
-   "asset_type": "video",
-   "original_url": "https://www.youtube.com/watch?v=BA3ptVQv-Rk",
-   "source_name": null,
-   "source_author": "Putther",
-   "publication_date": null,
-   "title": "GTA 6 vs GTA 5: Driving, Damage And NPCs",
-   "chapter": [
-    "Comparison with earlier GTA games",
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1",
-    "phys-2"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": null,
-   "resolution": null,
-   "duration": 817,
-   "license_information": null,
-   "usage_permissions": null,
-   "download_status": "link_only",
-   "verification_status": "unverified",
-   "used_in_final_video": false,
-   "reason": "metadata unavailable: ERROR: [youtube] BA3ptVQv-Rk: This content isn\u2019t available.",
-   "evidence": null,
-   "page_url": null
-  },
-  {
-   "asset_id": "A027",
-   "filename": null,
-   "asset_type": "video",
-   "original_url": "https://www.youtube.com/watch?v=CSgxJFGtQRs",
-   "source_name": null,
-   "source_author": "RUSH PLAY",
-   "publication_date": null,
-   "title": "GTA 6 vs GTA 5 - Ultimate CAR DAMAGE & PHYSICS Test (PS5 Pro)",
-   "chapter": [
-    "Comparison with earlier GTA games",
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1",
-    "phys-2"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": null,
-   "resolution": null,
-   "duration": 880,
-   "license_information": null,
-   "usage_permissions": null,
-   "download_status": "link_only",
-   "verification_status": "unverified",
-   "used_in_final_video": false,
-   "reason": "metadata unavailable: ERROR: [youtube] CSgxJFGtQRs: This content isn\u2019t available.",
-   "evidence": null,
-   "page_url": null
-  },
-  {
-   "asset_id": "A028",
-   "filename": null,
-   "asset_type": "video",
-   "original_url": "https://www.youtube.com/watch?v=CK6XFkFSoyc",
-   "source_name": null,
-   "source_author": "Onespot Gaming",
-   "publication_date": null,
-   "title": "GTA 6 VS GTA 4 (CAR PHYSICS COMPARISON)",
-   "chapter": [
-    "Comparison with earlier GTA games",
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1",
-    "phys-2"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": null,
-   "resolution": null,
-   "duration": 679,
-   "license_information": null,
-   "usage_permissions": null,
-   "download_status": "link_only",
-   "verification_status": "unverified",
-   "used_in_final_video": false,
-   "reason": "metadata unavailable: ERROR: [youtube] CK6XFkFSoyc: This content isn\u2019t available.",
-   "evidence": null,
-   "page_url": null
-  },
-  {
-   "asset_id": "A029",
-   "filename": null,
-   "asset_type": "video",
-   "original_url": "https://www.youtube.com/watch?v=2LySmj8f24U",
-   "source_name": null,
-   "source_author": "ENXGMA",
-   "publication_date": null,
-   "title": "GTA 6 vs. GTA 5 | Ultimate Comparison \ud83d\udd25 PART 2",
-   "chapter": [
-    "Comparison with earlier GTA games",
-    "Vehicle damage and soft-body physics"
-   ],
-   "narration_segment": [
-    "phys-1",
-    "phys-2"
-   ],
-   "suggested_timestamp": null,
-   "relevance_reason": null,
-   "relevance_score": null,
-   "resolution": null,
-   "duration": 660,
-   "license_information": null,
-   "usage_permissions": null,
-   "download_status": "link_only",
-   "verification_status": "unverified",
-   "used_in_final_video": false,
-   "reason": "metadata unavailable: ERROR: [youtube] 2LySmj8f24U: This content isn\u2019t available.",
-   "evidence": null,
-   "page_url": null
+   "page_url": null,
+   "caption": null,
+   "context": null,
+   "editor_eligible": false,
+   "eligibility_reason": null
   }
  ]
 }

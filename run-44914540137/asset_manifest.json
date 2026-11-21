@@ -36,6 +36,7 @@
    ],
    "page_url": null,
    "caption": null,
+   "image_url": null,
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": "needs human permission decision (usage unverified)"
@@ -71,6 +72,7 @@
    "evidence": null,
    "page_url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
    "caption": null,
+   "image_url": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -108,6 +110,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Miami_everglades_airboat_tourism.JPG",
    "context": null,
    "editor_eligible": true,
    "eligibility_reason": "open licence (attribution required)"
@@ -145,6 +148,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/4078/4863402225_e322905239_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -182,6 +186,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/8621/16428473860_522b7cc2a1_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -219,6 +224,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/2050/2282843562_a60b78d6d8.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -256,6 +262,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/8753/17189981889_95f59109f7_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -293,6 +300,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/8616/16429679699_bbb263e32b_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -330,6 +338,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/7430/9146344124_63ed9c1cd2_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -367,6 +376,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/8408/8978833723_1bb5f81f58_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -404,6 +414,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/60/216265013_b1c876594f_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -441,6 +452,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/3169/2819800177_dc5976767c.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -478,6 +490,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/7474/15853017596_01d678bb3b_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -515,6 +528,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/4121/4888799792_7507b8f071_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -552,6 +566,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Art_Deco_Buildings,_Ocean_Drive,_Miami_Beach,_Florida.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -589,6 +604,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Boulevard_Hotel_(Neon_sign),_Miami_Beach.jpg",
    "context": null,
    "editor_eligible": true,
    "eligibility_reason": "open licence (attribution required)"
@@ -626,6 +642,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Ocean_Drive_-_Art_Deco_buildings_in_Miami_(5410502514).jpg",
    "context": null,
    "editor_eligible": true,
    "eligibility_reason": "open licence (attribution required)"
@@ -663,6 +680,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Ocean_Drive_in_the_Miami_Beach_Art_Deco_Historic_District.jpg",
    "context": null,
    "editor_eligible": true,
    "eligibility_reason": "open licence (attribution required)"
@@ -700,6 +718,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Ocean_Five_Hotel_Art_Deco_Fa%C3%A7ade_on_444_Ocean_Drive_5th_St_Miami_Beach_Former_Surf_Hotel_on_the_Oceanfront_Miami_Beach_Florida_1930.jpg",
    "context": null,
    "editor_eligible": true,
    "eligibility_reason": "open licence (attribution required)"
@@ -737,6 +756,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Airboat_in_the_Everglades_-_panoramio.jpg",
    "context": null,
    "editor_eligible": true,
    "eligibility_reason": "open licence (attribution required)"
@@ -774,6 +794,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Airboat_near_Everglades_City_-_panoramio.jpg",
    "context": null,
    "editor_eligible": true,
    "eligibility_reason": "open licence (attribution required)"
@@ -811,6 +832,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Everglades-airboat-tours_960.png",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -848,6 +870,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Everglades-airboat_(cropped).jpg",
    "context": null,
    "editor_eligible": true,
    "eligibility_reason": "open licence (attribution required)"
@@ -885,6 +908,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Everglades_Holiday_Park_Airboat.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -922,6 +946,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:A324,_Seven_Mile_Bridge,_Florida_Keys,_USA,_2010.JPG",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -959,6 +984,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Moser_Channel_Bridge,_details_of_Center_Pier_for_Draw,_7-3-09_(Dwg_B-262)._-_Seven_Mile_Bridge,_Linking_Florida_Keys,_Marathon,_Monroe_County,_FL.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -996,6 +1022,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Pigeon_Key_from_the_Seven_Mile_Bridge,_Florida_Keys_(8591385115).jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1033,6 +1060,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Seven_Mile_Bridge,_Florida_Keys_(8592496566).jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1070,6 +1098,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Seven_Mile_Bridge,_Florida_Keys_aerial_(2003).jpg",
    "context": null,
    "editor_eligible": true,
    "eligibility_reason": "open licence (attribution required)"
@@ -1107,6 +1136,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/7545/15861232315_a1d3526b73_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1144,6 +1174,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/4224/34395186453_2740afe28e_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1181,6 +1212,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/7496/15239081394_5cba9bdf63_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1218,6 +1250,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/6193/6140024865_f7501f2cd8_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1255,6 +1288,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/7466/15673892790_3228db14a0_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1292,6 +1326,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/7155/6589753881_53d389c076_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1329,6 +1364,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://live.staticflickr.com/8633/15935264229_68f2efce8c_b.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1366,6 +1402,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Miami_South_Beach_Art_Deco_Welcome_Center_by_Don_Ramey_Logan.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1403,6 +1440,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": "https://commons.wikimedia.org/wiki/File:Seven-mile_Historic_Bridge,_Florida_Keys.jpg",
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1436,6 +1474,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": null,
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1469,6 +1508,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": null,
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1502,6 +1542,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": null,
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1535,6 +1576,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": null,
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1568,6 +1610,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": null,
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null
@@ -1601,6 +1644,7 @@
    "evidence": null,
    "page_url": null,
    "caption": null,
+   "image_url": null,
    "context": null,
    "editor_eligible": false,
    "eligibility_reason": null

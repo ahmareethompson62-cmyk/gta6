@@ -1,0 +1,69 @@
+{
+ "project": "leonida-real-world-reference",
+ "topic": "Real-world Florida locations behind GTA 6's Vice City and Leonida",
+ "segments": [
+  {
+   "id": "loc-1",
+   "chapter": "Vice City and Miami Beach",
+   "narration": "Vice City is modelled on Miami.",
+   "keywords": [
+    "Miami",
+    "Ocean Drive",
+    "Miami Beach",
+    "art deco",
+    "skyline",
+    "Vice City"
+   ]
+  },
+  {
+   "id": "loc-2",
+   "chapter": "Gullet Marsh and the Everglades",
+   "narration": "Leonida's swamps echo the Everglades.",
+   "keywords": [
+    "Everglades",
+    "swamp",
+    "marsh",
+    "airboat",
+    "alligator",
+    "Florida"
+   ]
+  },
+  {
+   "id": "loc-3",
+   "chapter": "The Keys",
+   "narration": "The island chain echoes the Florida Keys.",
+   "keywords": [
+    "Florida Keys",
+    "Seven Mile Bridge",
+    "Key West",
+    "bridge"
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "id": "approved",
+   "type": "fetch_approved",
+   "approvals": [
+    {
+     "asset_id": "A025",
+     "url": "https://live.staticflickr.com/4078/4863402225_e322905239_b.jpg",
+     "page_url": "https://www.flickr.com/photos/71722325@N00/4863402225",
+     "source_name": "flickr",
+     "source_author": "luismc75",
+     "segment_ids": [
+      "loc-1",
+      "loc-2",
+      "loc-3"
+     ],
+     "relevance": 0.33,
+     "keyword_hits": null,
+     "approved_by": "MECHANISM TEST (not a real approval; CC image)",
+     "approved_on": "2026-11-21",
+     "note": "pipeline test only"
+    }
+   ]
+  }
+ ],
+ "rev": 1795288569
+}

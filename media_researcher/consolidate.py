@@ -70,6 +70,8 @@ def main():
                 pr = ffprobe(path)
                 if not pr or not pr['w']: ok, why = False, 'video unreadable'
                 else: ent['resolution'] = f"{pr['w']}x{pr['h']}"; ent['duration'] = round(pr['dur'], 1)
+            if ok and (ent.get('relevance_score') is not None) and ent['relevance_score'] < 0.2 and not (ent.get('usage_permissions') or '').startswith('official'):
+                ok, why = False, f"low relevance to plan keywords ({ent['relevance_score']})"
             if not ok: ent.update(verification_status='rejected', reason=why); rejected.append(ent); stats['rejected_qc'] += 1; manifest.append(ent); continue
             seen_sha[sha] = ent['asset_id']
             dest = f"{out}/assets/research/{sub}/{ent['asset_id']}_{os.path.basename(path)}"; shutil.copy(path, dest)

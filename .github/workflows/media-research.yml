@@ -1,6 +1,6 @@
 name: media-research
 # Parallel research workers on GitHub-hosted runners. Trigger: Actions tab -> Run workflow (plan path input),
-# or push a plan file under research_plans/. Text results (manifest + report) are committed to branch `research-results`;
+# or let mr.py write research_runs/trigger.json ({"plan": path, "nonce": ...}) and push it. Text results (manifest + report) are committed to branch `research-results`;
 # media files are kept as workflow artifacts (short retention).
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
         required: true
         default: 'research_plans/gta6-crash-physics.json'
   push:
-    paths: ['research_plans/**']
+    paths: ['research_runs/trigger.json']
 permissions:
   contents: write
 concurrency:
@@ -29,7 +29,7 @@ jobs:
       - id: p
         run: |
           PLAN="${{ github.event.inputs.plan }}"
-          if [ -z "$PLAN" ]; then PLAN=$(git diff --name-only HEAD~1 HEAD -- research_plans | head -1); fi
+          if [ -z "$PLAN" ]; then PLAN=$(jq -r .plan research_runs/trigger.json); fi
           test -f "$PLAN" || { echo "plan not found: $PLAN"; exit 1; }
           echo "plan=$PLAN" >> $GITHUB_OUTPUT
           echo "matrix=$(jq -c '{include:[.jobs[]|{job:.id,type:.type}]}' "$PLAN")" >> $GITHUB_OUTPUT

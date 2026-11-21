@@ -40,6 +40,7 @@ def run():
     plan, rd = sys.argv[2], arg('--repo-dir'); assert plan_check(plan), 'fix the plan first'
     name = os.path.basename(plan); d = json.load(open(plan)); d['rev'] = int(time.time()); os.makedirs(f'{rd}/research_plans', exist_ok=True)
     json.dump(d, open(f'{rd}/research_plans/{name}', 'w'), indent=1)
+    os.makedirs(f'{rd}/research_runs', exist_ok=True); json.dump(dict(plan=f'research_plans/{name}', nonce=int(time.time())), open(f'{rd}/research_runs/trigger.json', 'w'))
     sh(['git', 'add', '-A'], rd); sh(['git', '-c', 'user.name=Claude', '-c', 'user.email=noreply@anthropic.com', 'commit', '-qm', f'research plan {name}'], rd); sh(['git', 'push', 'origin', 'HEAD'], rd)
     sha = sh(['git', 'rev-parse', 'HEAD'], rd); slug = slug_of(rd)
     for _ in range(12):

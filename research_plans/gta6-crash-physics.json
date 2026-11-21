@@ -2,134 +2,19 @@
  "project": "gta6-crash-physics-test",
  "topic": "GTA 6 vehicle crash physics",
  "segments": [
-  {
-   "id": "phys-1",
-   "chapter": "Vehicle damage and soft-body physics",
-   "narration": "Rockstar's vehicle damage system could change how crashes look.",
-   "keywords": [
-    "damage",
-    "deformation",
-    "soft-body",
-    "crash",
-    "collision",
-    "physics",
-    "car"
-   ]
-  },
-  {
-   "id": "phys-2",
-   "chapter": "Comparison with earlier GTA games",
-   "narration": "GTA 5 and GTA 4 crash physics for comparison.",
-   "keywords": [
-    "GTA 4",
-    "GTA 5",
-    "GTA V",
-    "BeamNG",
-    "euphoria",
-    "realism",
-    "crash"
-   ]
-  }
+  {"id": "phys-1", "chapter": "Vehicle damage and soft-body physics", "narration": "Rockstar's vehicle damage system could change how crashes look.", "keywords": ["damage", "deformation", "soft-body", "crash", "collision", "physics", "car"]},
+  {"id": "phys-2", "chapter": "Comparison with earlier GTA games", "narration": "GTA 5 and GTA 4 crash physics for comparison.", "keywords": ["GTA 4", "GTA 5", "GTA V", "BeamNG", "euphoria", "realism", "crash"]}
  ],
  "jobs": [
-  {
-   "id": "web-news-a",
-   "type": "web",
-   "segment_ids": [
-    "phys-1"
-   ],
-   "keywords": [
-    "damage",
-    "deformation",
-    "soft-body",
-    "crash",
-    "collision",
-    "physics"
-   ],
-   "urls": [
-    "https://www.jalopnik.com/2321357/how-gta-6-grand-theft-auto-uses-soft-body-physics-realistic-car-crashes/",
-    "https://gtaintel.com/news/gta-6-physics-and-destruction",
-    "https://www.thedrive.com/news/gta-6-driving-physics-hint-at-return-to-the-realism-of-gta-4.md"
-   ]
-  },
-  {
-   "id": "web-news-b",
-   "type": "web",
-   "segment_ids": [
-    "phys-1",
-    "phys-2"
-   ],
-   "keywords": [
-    "damage",
-    "deformation",
-    "crash",
-    "collision",
-    "physics",
-    "GTA 4",
-    "euphoria"
-   ],
-   "urls": [
-    "https://www.sportskeeda.com/gta/news-first-look-gta-6-car-deformation-physics-seemingly-found-trailer",
-    "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why",
-    "https://purexbox.com/news/2023/12/digital-foundry-breaks-down-grand-theft-auto-6-trailer-1"
-   ]
-  },
-  {
-   "id": "official",
-   "type": "web",
-   "segment_ids": [
-    "phys-1"
-   ],
-   "keywords": [
-    "Grand Theft Auto VI",
-    "vehicle",
-    "driving",
-    "physics"
-   ],
-   "urls": [
-    "https://www.rockstargames.com/VI",
-    "https://www.rockstargames.com/newswire"
-   ]
-  },
-  {
-   "id": "youtube",
-   "type": "youtube",
-   "segment_ids": [
-    "phys-1",
-    "phys-2"
-   ],
-   "max_results": 4,
-   "keywords": [
-    "crash",
-    "damage",
-    "physics",
-    "collision",
-    "deformation"
-   ],
-   "queries": [
-    "GTA 6 trailer car crash damage physics breakdown",
-    "GTA 6 vs GTA 5 car damage physics comparison"
-   ]
-  },
-  {
-   "id": "commons",
-   "type": "commons",
-   "segment_ids": [
-    "phys-2"
-   ],
-   "keywords": [
-    "Grand Theft Auto",
-    "GTA",
-    "Rockstar",
-    "car crash"
-   ],
-   "min_width": 1000,
-   "limit": 6,
-   "queries": [
-    "Grand Theft Auto V screenshot",
-    "Rockstar Games car crash"
-   ]
-  }
- ],
- "rev": 2
+  {"id": "web-news-a", "type": "web", "segment_ids": ["phys-1"], "keywords": ["damage", "deformation", "soft-body", "crash", "collision", "physics"],
+   "urls": ["https://www.jalopnik.com/2321357/how-gta-6-grand-theft-auto-uses-soft-body-physics-realistic-car-crashes/", "https://gtaintel.com/news/gta-6-physics-and-destruction", "https://www.thedrive.com/news/gta-6-driving-physics-hint-at-return-to-the-realism-of-gta-4.md"]},
+  {"id": "web-news-b", "type": "web", "segment_ids": ["phys-1", "phys-2"], "keywords": ["damage", "deformation", "crash", "collision", "physics", "GTA 4", "euphoria"],
+   "urls": ["https://www.sportskeeda.com/gta/news-first-look-gta-6-car-deformation-physics-seemingly-found-trailer", "https://www.creativebloq.com/3d/video-game-design/the-new-gta-6-trailer-looks-unbelievably-lifelike-heres-why", "https://purexbox.com/news/2023/12/digital-foundry-breaks-down-grand-theft-auto-6-trailer-1"]},
+  {"id": "official", "type": "web", "segment_ids": ["phys-1"], "keywords": ["Grand Theft Auto VI", "vehicle", "driving", "physics"],
+   "urls": ["https://www.rockstargames.com/VI", "https://www.rockstargames.com/newswire"]},
+  {"id": "youtube", "type": "youtube", "segment_ids": ["phys-1", "phys-2"], "max_results": 4, "keywords": ["crash", "damage", "physics", "collision", "deformation"],
+   "queries": ["GTA 6 trailer car crash damage physics breakdown", "GTA 6 vs GTA 5 car damage physics comparison"]},
+  {"id": "commons", "type": "commons", "segment_ids": ["phys-2"], "keywords": ["Grand Theft Auto", "GTA", "Rockstar", "car crash"], "min_width": 1000, "limit": 6,
+   "queries": ["Grand Theft Auto V screenshot", "Rockstar Games car crash"]}
+ ]
 }

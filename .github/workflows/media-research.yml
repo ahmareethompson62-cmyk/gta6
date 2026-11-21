@@ -79,12 +79,15 @@ jobs:
       - uses: actions/download-artifact@v4
         with: { pattern: 'research-*', path: results }
       - name: Consolidate
-        run: python media_researcher/consolidate.py "${{ needs.setup.outputs.plan }}" results package
+        run: |
+          PLAN="${{ needs.setup.outputs.plan }}"
+          python media_researcher/consolidate.py "$PLAN" results package "${PLAN%.json}.permissions.json"
       - uses: actions/upload-artifact@v4
         with: { name: research-package, path: package, retention-days: 7 }
       - name: Commit text results (manifest + report only) to research-results branch
         run: |
           export RUN=run-${{ github.run_id }}
+          export PLAN="${{ needs.setup.outputs.plan }}"
           mkdir -p /tmp/rr && cp package/asset_manifest.json package/report.md /tmp/rr/
           git config user.name "media-research[bot]"; git config user.email "noreply@github.com"
           git fetch origin research-results 2>/dev/null && git checkout research-results || git checkout --orphan research-results
@@ -94,10 +97,12 @@ jobs:
           python3 - <<'PY'
           import json,re,shutil,os
           RUN=os.environ['RUN']
+          pp=os.environ['PLAN'].replace('.json','.permissions.json')
+          COMMIT_APPROVED=os.path.exists(pp) and json.load(open(pp)).get('commit_approved_media',False)
           m=json.load(open('/tmp/rr/asset_manifest.json'))
           for a in m['assets']:
               u=(a.get('usage_permissions') or '')
-              if a.get('filename') and not a['verification_status'].startswith('rejected') and re.match(r'(CC|Creative Commons|Public domain|PD)',u,re.I):
+              if a.get('filename') and not a['verification_status'].startswith('rejected') and (re.match(r'(CC|Creative Commons|Public domain|PD|open licence)',u,re.I) or (u.startswith('approved by') and COMMIT_APPROVED)):
                   os.makedirs(RUN+'/media',exist_ok=True); shutil.copy('package/'+a['filename'],RUN+'/media/')
           PY
           git add $RUN && git commit -m "research results $RUN" && git push origin HEAD:research-results

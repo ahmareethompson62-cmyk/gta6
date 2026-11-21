@@ -1,0 +1,129 @@
+{
+ "project": "leonida-real-world-reference",
+ "topic": "Real-world Florida locations behind GTA 6's Vice City and Leonida",
+ "segments": [
+  {
+   "id": "loc-1",
+   "chapter": "Vice City and Miami Beach",
+   "narration": "Vice City is modelled on Miami.",
+   "keywords": [
+    "Miami",
+    "Ocean Drive",
+    "Miami Beach",
+    "art deco",
+    "skyline",
+    "Vice City"
+   ]
+  },
+  {
+   "id": "loc-2",
+   "chapter": "Gullet Marsh and the Everglades",
+   "narration": "Leonida's swamps echo the Everglades.",
+   "keywords": [
+    "Everglades",
+    "swamp",
+    "marsh",
+    "airboat",
+    "alligator",
+    "Florida"
+   ]
+  },
+  {
+   "id": "loc-3",
+   "chapter": "The Keys",
+   "narration": "The island chain echoes the Florida Keys.",
+   "keywords": [
+    "Florida Keys",
+    "Seven Mile Bridge",
+    "Key West",
+    "bridge"
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "id": "commons",
+   "type": "commons",
+   "segment_ids": [
+    "loc-1",
+    "loc-2",
+    "loc-3"
+   ],
+   "keywords": [
+    "Miami",
+    "Everglades",
+    "Florida Keys",
+    "Ocean Drive",
+    "Seven Mile Bridge",
+    "airboat",
+    "skyline"
+   ],
+   "min_width": 1400,
+   "limit": 6,
+   "queries": [
+    "Miami Beach Ocean Drive art deco",
+    "Everglades airboat",
+    "Seven Mile Bridge Florida Keys"
+   ]
+  },
+  {
+   "id": "openverse",
+   "type": "openverse",
+   "segment_ids": [
+    "loc-1",
+    "loc-2",
+    "loc-3"
+   ],
+   "keywords": [
+    "Miami",
+    "Everglades",
+    "Keys",
+    "Ocean Drive",
+    "airboat",
+    "bridge"
+   ],
+   "min_width": 1400,
+   "limit": 6,
+   "queries": [
+    "Miami Beach Ocean Drive",
+    "Everglades swamp alligator",
+    "Florida Keys Seven Mile Bridge"
+   ]
+  },
+  {
+   "id": "archive",
+   "type": "archive",
+   "segment_ids": [
+    "loc-1"
+   ],
+   "keywords": [
+    "Miami"
+   ],
+   "mediatype": "movies",
+   "limit": 6,
+   "max_mb": 60,
+   "queries": [
+    "Miami Beach 1980s"
+   ]
+  },
+  {
+   "id": "wiki",
+   "type": "web",
+   "segment_ids": [
+    "loc-1",
+    "loc-2"
+   ],
+   "keywords": [
+    "Vice City",
+    "Miami",
+    "Leonida",
+    "Florida",
+    "Everglades"
+   ],
+   "urls": [
+    "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+   ]
+  }
+ ],
+ "rev": 1795271321
+}

@@ -2,7 +2,7 @@
 """Merge worker outputs into one research package. Usage: consolidate.py PLAN.json RESULTS_DIR OUT_DIR
 Produces OUT/asset_manifest.json, OUT/report.md, and organised OUT/assets/research/{images,videos,screenshots}/.
 QC: file opens, min size, dedupe (sha1 + average-hash), relevance score. Never invents licence/permission fields."""
-import sys, os, json, glob, shutil, subprocess, collections
+import sys, os, json, glob, shutil, subprocess, collections, re
 sys.path.insert(0, os.path.dirname(__file__))
 from common import sha1_file
 from PIL import Image
@@ -18,7 +18,10 @@ def ffprobe(p):
     except Exception: return None
 
 def main():
-    plan_p, rdir, out = sys.argv[1:4]; plan = json.load(open(plan_p)); segs = {s['id']: s for s in plan.get('segments', [])}
+    plan_p, rdir, out = sys.argv[1:4]; plan = json.load(open(plan_p))
+    perm = json.load(open(sys.argv[4])) if len(sys.argv) > 4 and os.path.exists(sys.argv[4]) else {'approvals': []}
+    approved = {a['url'] for a in perm.get('approvals', [])}; OPEN = re.compile(r'^(CC|Creative Commons|Public domain|PD|open licence)', re.I)
+    os.makedirs(f'{out}/review', exist_ok=True); segs = {s['id']: s for s in plan.get('segments', [])}
     recs = []
     for f in sorted(glob.glob(f'{rdir}/**/results.json', recursive=True)):
         d = json.load(open(f)); base = os.path.dirname(f)
@@ -42,7 +45,8 @@ def main():
                      chapter=None, narration_segment=r.get('segment_ids'), suggested_timestamp=r.get('relevant_ranges'), relevance_reason=None, relevance_score=r.get('relevance'),
                      resolution=r.get('resolution'), duration=r.get('duration'), license_information=r.get('license_information'), usage_permissions=r.get('usage_permissions'),
                      download_status=r.get('download_status'), verification_status='unverified', used_in_final_video=False, reason=r.get('reason'),
-                     evidence=r.get('evidence'), page_url=r.get('page_url'))
+                     evidence=r.get('evidence'), page_url=r.get('page_url'), caption=r.get('caption'), context=r.get('context'), editor_eligible=False, eligibility_reason=None)
+        if r.get('review_thumbnail') and os.path.exists(r.get('review_thumbnail') or ''): shutil.copy(r['review_thumbnail'], f'{out}/review/{aid}_{os.path.basename(r["review_thumbnail"])}'); entry['review_thumbnail'] = f'review/{aid}_{os.path.basename(r["review_thumbnail"])}'
         if r.get('segment_ids'): entry['chapter'] = sorted({segs[s]['chapter'] for s in r['segment_ids'] if s in segs and 'chapter' in segs[s]}) or None
         if r.get('keyword_hits'): entry['relevance_reason'] = 'keyword matches: ' + ', '.join(r['keyword_hits'])
         elif r.get('relevant_ranges'): entry['relevance_reason'] = 'caption cues mention plan keywords'
@@ -79,16 +83,23 @@ def main():
             rel = (ent.get('relevance_score') or 0)
             ent['verification_status'] = 'file_ok_relevance_keyword_match_needs_human_check' if rel >= 0.4 else 'file_ok_low_relevance_needs_human_check'
             if not (ent.get('usage_permissions') or '').strip(): ent['usage_permissions'] = 'unknown'
+            up = ent['usage_permissions']
+            if OPEN.match(up) and label == 'file': ent['editor_eligible'], ent['eligibility_reason'] = True, 'open licence (attribution required)'
+            elif up.startswith('approved by') and label == 'file': ent['editor_eligible'], ent['eligibility_reason'] = True, 'human-approved: ' + up
+            elif (ent.get('original_url') in approved or ent.get('page_url') in approved) and label == 'file': ent['editor_eligible'], ent['eligibility_reason'] = True, 'human-approved (permissions.json)'
+            else: ent['eligibility_reason'] = 'needs human permission decision (usage unverified)'
             manifest.append(ent); stats[{'images': 'images', 'videos': 'videos', 'screenshots': 'screenshots'}[sub]] += 1
         if not fp and not sp:
             if entry['download_status'] == 'inaccessible': stats['inaccessible'] += 1
             elif entry['asset_type'] in ('video', 'article', 'image'): stats['link_only'] += 1
             manifest.append(entry)
+    elig = sum(1 for m in manifest if m.get('editor_eligible'))
     awaiting = sum(1 for m in manifest if m['filename'] and (m.get('usage_permissions') or 'unknown').startswith(('unknown', 'official source')))
+    manifest.sort(key=lambda m: (-(m.get('relevance_score') or 0), m['asset_id']))
     json.dump(dict(project=plan.get('project'), topic=plan.get('topic'), assets=manifest), open(f'{out}/asset_manifest.json', 'w'), indent=1)
     L = [f"# Research report: {plan.get('topic')}", '', f"Records discovered: {len(manifest)}", f"- Images collected: {stats['images']}", f"- Videos collected: {stats['videos']}", f"- Page screenshots: {stats['screenshots']}",
          f"- Link/reference only (not downloaded): {stats['link_only']}", f"- Rejected by QC/dedupe: {stats['rejected_qc'] + stats['rejected_duplicate']}", f"- Inaccessible sources: {stats['inaccessible']}",
-         f"- Collected files awaiting usage/permission verification: {awaiting}", f"- Worker errors: {stats['worker_errors']}", '', '## Inaccessible / failed']
+         f"- Collected files awaiting usage/permission verification: {awaiting}", f"- Worker errors: {stats['worker_errors']}", f"- Eligible for the editor now (open licence or human-approved): {elig}", '', '## Inaccessible / failed']
     for m in manifest:
         if m['download_status'] == 'inaccessible': L.append(f"- {m.get('original_url') or m.get('title')}: {m.get('reason')}")
     L += ['', '## Rejected']

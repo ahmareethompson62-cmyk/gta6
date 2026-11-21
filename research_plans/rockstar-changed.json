@@ -1,0 +1,194 @@
+{
+ "project": "rockstar-has-changed",
+ "topic": "Rockstar Has Changed, But Not for the Better",
+ "segments": [
+  {
+   "id": "emp-1",
+   "chapter": "Dismissals (Oct 2025)",
+   "narration": "More than thirty Rockstar employees were dismissed; Rockstar says a small number for confidential information",
+   "keywords": [
+    "Rockstar",
+    "dismissed",
+    "fired",
+    "IWGB",
+    "union",
+    "Discord",
+    "confidential"
+   ]
+  },
+  {
+   "id": "emp-2",
+   "chapter": "Legal claims and tribunal",
+   "narration": "IWGB claims; interim relief refused; blacklisting claims proceed; closing arguments in Glasgow",
+   "keywords": [
+    "tribunal",
+    "Glasgow",
+    "IWGB",
+    "victimisation",
+    "blacklisting",
+    "interim relief",
+    "closing"
+   ]
+  },
+  {
+   "id": "img-1",
+   "chapter": "Public image",
+   "narration": "Cops n Crooks shelved; Rockstar caution",
+   "keywords": [
+    "Rockstar",
+    "Cops 'n' Crooks",
+    "GTA Online",
+    "culture"
+   ]
+  },
+  {
+   "id": "vi-1",
+   "chapter": "GTA VI satire statements",
+   "narration": "Rob Nelson and Rupert Humphries on satire in GTA VI",
+   "keywords": [
+    "GTA VI",
+    "satire",
+    "Rob Nelson",
+    "Rupert Humphries",
+    "humor",
+    "writing"
+   ]
+  },
+  {
+   "id": "old-1",
+   "chapter": "Older Rockstar",
+   "narration": "Satire in GTA III to GTA V",
+   "keywords": [
+    "GTA",
+    "satire",
+    "Donald Love",
+    "Statue of Happiness",
+    "LifeInvader",
+    "Jock Cranley"
+   ]
+  },
+  {
+   "id": "crunch-1",
+   "chapter": "2018 crunch comments",
+   "narration": "Dan Houser 100-hour weeks clarification",
+   "keywords": [
+    "Dan Houser",
+    "100-hour",
+    "crunch",
+    "Red Dead Redemption 2"
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "id": "news-employee",
+   "type": "web",
+   "segment_ids": [
+    "emp-1",
+    "emp-2"
+   ],
+   "keywords": [
+    "Rockstar",
+    "dismissed",
+    "IWGB",
+    "union",
+    "tribunal",
+    "Discord",
+    "Glasgow",
+    "blacklisting"
+   ],
+   "urls": [
+    "https://iwgb.org.uk/en/post/iwgb-issues-legal-claims-against-rockstar-over-unfair-dismissal-of-staff/",
+    "https://www.pcgamer.com/games/rockstar-now-says-fired-employees-were-let-go-because-they-revealed-specific-game-features-from-upcoming-and-unannounced-titles-in-a-public-forum/",
+    "https://www.theregister.com/2025/11/06/union_brands_rockstars_leak_claim/",
+    "https://www.itv.com/news/2026-11-18/staff-sacked-by-grand-theft-auto-developer-were-caught-red-handed-tribunal",
+    "https://www.pcgamer.com/gaming-industry/rockstar-faces-legal-setback-as-uk-tribunal-allows-its-fired-workers-to-bring-every-one-of-their-union-busting-allegations-to-trial/",
+    "https://www.techradar.com/gaming/new-ruling-in-rockstar-games-legal-battle-means-the-gta-6-studio-wont-be-forced-to-pay-fired-employees-interim-relief-we-regret-that-we-were-put-in-a-position-where-dismissals-were-necessary"
+   ]
+  },
+  {
+   "id": "news-gtavi",
+   "type": "web",
+   "segment_ids": [
+    "vi-1",
+    "img-1"
+   ],
+   "keywords": [
+    "GTA VI",
+    "satire",
+    "Rob Nelson",
+    "Rupert Humphries",
+    "Rockstar"
+   ],
+   "urls": [
+    "https://www.gamesradar.com/games/grand-theft-auto/rockstar-is-cautious-about-what-to-satirize-in-gta-6-specific-political-issues-or-memes-will-date-fast/",
+    "https://wccftech.com/gta-vi-writers-sidestep-trump-maga-florida-satire-conspiracy-theories/",
+    "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait"
+   ]
+  },
+  {
+   "id": "news-history",
+   "type": "web",
+   "segment_ids": [
+    "old-1",
+    "crunch-1"
+   ],
+   "keywords": [
+    "Donald Love",
+    "Statue of Happiness",
+    "LifeInvader",
+    "Jock Cranley",
+    "Dan Houser",
+    "100-hour"
+   ],
+   "urls": [
+    "https://www.superjumpmagazine.com/donald-trump-the-cannibal-twenty-seven-years-of-grand-theft-auto-parodies/",
+    "https://gamespot.com/articles/rockstar-clarifies-red-dead-redemption-2-100-hour-/1100-6462550/"
+   ]
+  },
+  {
+   "id": "commons",
+   "type": "commons",
+   "segment_ids": [
+    "old-1",
+    "emp-2"
+   ],
+   "keywords": [
+    "Rockstar",
+    "Glasgow",
+    "Edinburgh",
+    "Take-Two",
+    "video game"
+   ],
+   "min_width": 1200,
+   "limit": 6,
+   "queries": [
+    "Rockstar North Edinburgh",
+    "Glasgow Employment Tribunal",
+    "Grand Theft Auto video game"
+   ]
+  },
+  {
+   "id": "openverse",
+   "type": "openverse",
+   "segment_ids": [
+    "old-1",
+    "emp-2"
+   ],
+   "keywords": [
+    "Rockstar",
+    "Glasgow",
+    "union",
+    "Grand Theft Auto"
+   ],
+   "min_width": 1200,
+   "limit": 6,
+   "queries": [
+    "Grand Theft Auto",
+    "trade union protest London",
+    "Rockstar Games"
+   ]
+  }
+ ],
+ "rev": 1795290071
+}

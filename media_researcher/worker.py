@@ -173,7 +173,7 @@ def job_commons(job, out, res):
             desc = re.sub('<[^>]+>', '', (md.get('ImageDescription') or {}).get('value', ''))
             if not ii.get('mime', '').startswith('image/'): continue   # skip pdf/audio/etc
             rec = dict(kind='image', job=job['id'], segment_ids=job.get('segment_ids', []), query=q, title=pg.get('title'), original_url=ii.get('descriptionurl'),
-                       source_name='Wikimedia Commons', source_author=artist, license_information=lic, resolution=f"{ii.get('width')}x{ii.get('height')}", alt=desc[:200])
+                       source_name='Wikimedia Commons', source_author=artist, license_information=lic, resolution=f"{ii.get('width')}x{ii.get('height')}", alt=desc[:200], image_url=ii.get('url'))
             sc, hits = kw_score(pg.get('title', '') + ' ' + desc, job.get('keywords', [])); rec.update(relevance=round(sc, 2), keyword_hits=hits)
             ok_lic = bool(re.search(r'(CC[ -]|public domain|PD)', lic, re.I))
             if ok_lic and ii.get('width', 0) >= job.get('min_width', 1000) and ii.get('mime', '').startswith('image'):

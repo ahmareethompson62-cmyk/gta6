@@ -1,0 +1,44 @@
+{
+ "project": "leonida-real-world-reference",
+ "topic": "Real-world Florida locations behind GTA 6's Vice City and Leonida",
+ "assets": [
+  {
+   "asset_id": "A001",
+   "filename": "assets/research/images/A001_approved_a007.jpg",
+   "asset_type": "image",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Art_Deco_Buildings%2C_Ocean_Drive%2C_Miami_Beach%2C_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_name": "Wikimedia Commons",
+   "source_author": "Hubo",
+   "publication_date": null,
+   "title": null,
+   "chapter": [
+    "Gullet Marsh and the Everglades",
+    "The Keys",
+    "Vice City and Miami Beach"
+   ],
+   "narration_segment": [
+    "loc-1",
+    "loc-2",
+    "loc-3"
+   ],
+   "suggested_timestamp": null,
+   "relevance_reason": null,
+   "relevance_score": 0.29,
+   "resolution": "1000x563",
+   "duration": null,
+   "license_information": null,
+   "usage_permissions": "approved by MECHANISM TEST (not a real approval; CC image) on 2026-11-21: pipeline test only",
+   "download_status": "downloaded",
+   "verification_status": "file_ok_low_relevance_needs_human_check",
+   "used_in_final_video": false,
+   "reason": null,
+   "evidence": null,
+   "page_url": "https://commons.wikimedia.org/wiki/File:Art_Deco_Buildings,_Ocean_Drive,_Miami_Beach,_Florida.jpg",
+   "caption": null,
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Art_Deco_Buildings%2C_Ocean_Drive%2C_Miami_Beach%2C_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "context": null,
+   "editor_eligible": true,
+   "eligibility_reason": "human-approved: approved by MECHANISM TEST (not a real approval; CC image) on 2026-11-21: pipeline test only"
+  }
+ ]
+}

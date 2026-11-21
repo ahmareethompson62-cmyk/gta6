@@ -1,0 +1,22 @@
+{
+ "approvals": [
+  {
+   "asset_id": "A007",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Art_Deco_Buildings%2C_Ocean_Drive%2C_Miami_Beach%2C_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Art_Deco_Buildings,_Ocean_Drive,_Miami_Beach,_Florida.jpg",
+   "source_name": "Wikimedia Commons",
+   "source_author": "Hubo",
+   "segment_ids": [
+    "loc-1",
+    "loc-2",
+    "loc-3"
+   ],
+   "relevance": 0.29,
+   "keyword_hits": null,
+   "approved_by": "MECHANISM TEST (not a real approval; CC image)",
+   "approved_on": "2026-11-21",
+   "note": "pipeline test only"
+  }
+ ],
+ "commit_approved_media": true
+}

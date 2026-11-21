@@ -195,7 +195,7 @@ def job_openverse(job, out, res):
             lic = f"CC {it.get('license', '').upper()} {it.get('license_version', '')}".strip()
             txt = ' '.join([it.get('title') or '', ' '.join(t.get('name', '') for t in it.get('tags') or [])]); sc, hits = kw_score(txt, job.get('keywords', []))
             rec = dict(kind='image', job=job['id'], segment_ids=job.get('segment_ids', []), query=q, title=it.get('title'), original_url=it.get('foreign_landing_url'), source_name=it.get('source') or 'Openverse',
-                       source_author=it.get('creator'), license_information=f"{lic} {it.get('license_url') or ''}".strip(), resolution=f"{it.get('width')}x{it.get('height')}", relevance=round(sc, 2), keyword_hits=hits)
+                       source_author=it.get('creator'), license_information=f"{lic} {it.get('license_url') or ''}".strip(), resolution=f"{it.get('width')}x{it.get('height')}", relevance=round(sc, 2), keyword_hits=hits, image_url=it.get('url'))
             if sc > 0 and (it.get('width') or 0) >= job.get('min_width', 1000) and it.get('url'):
                 try:
                     polite(it['url'], 1.0); img = requests.get(it['url'], headers={'User-Agent': UA}, timeout=60)

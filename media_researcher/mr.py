@@ -82,7 +82,7 @@ def approve():
     assert by and on, '--by and --on required: approvals are a human decision'
     perm = json.load(open(out)) if os.path.exists(out) else {'approvals': [], 'commit_approved_media': False}
     for a in man['assets']:
-        if a['asset_id'] in ids: perm['approvals'].append(dict(asset_id=a['asset_id'], url=a.get('original_url'), page_url=a.get('page_url'), source_name=a.get('source_name'), source_author=a.get('source_author'), segment_ids=a.get('narration_segment'), relevance=a.get('relevance_score'), keyword_hits=None, approved_by=by, approved_on=on, note=arg('--note', '')))
+        if a['asset_id'] in ids: perm['approvals'].append(dict(asset_id=a['asset_id'], url=a.get('image_url') or a.get('original_url'), page_url=a.get('page_url') or a.get('original_url'), source_name=a.get('source_name'), source_author=a.get('source_author'), segment_ids=a.get('narration_segment'), relevance=a.get('relevance_score'), keyword_hits=None, approved_by=by, approved_on=on, note=arg('--note', '')))
     if '--commit-media' in sys.argv: perm['commit_approved_media'] = True
     json.dump(perm, open(out, 'w'), indent=1); print('recorded', len(perm['approvals']), 'approvals ->', out)
 

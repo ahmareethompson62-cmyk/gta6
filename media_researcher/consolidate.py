@@ -45,7 +45,7 @@ def main():
                      chapter=None, narration_segment=r.get('segment_ids'), suggested_timestamp=r.get('relevant_ranges'), relevance_reason=None, relevance_score=r.get('relevance'),
                      resolution=r.get('resolution'), duration=r.get('duration'), license_information=r.get('license_information'), usage_permissions=r.get('usage_permissions'),
                      download_status=r.get('download_status'), verification_status='unverified', used_in_final_video=False, reason=r.get('reason'),
-                     evidence=r.get('evidence'), page_url=r.get('page_url'), caption=r.get('caption'), context=r.get('context'), editor_eligible=False, eligibility_reason=None)
+                     evidence=r.get('evidence'), page_url=r.get('page_url'), caption=r.get('caption'), image_url=r.get('image_url') or (r.get('original_url') if r.get('kind') == 'image' else None), context=r.get('context'), editor_eligible=False, eligibility_reason=None)
         if r.get('review_thumbnail') and os.path.exists(r.get('review_thumbnail') or ''): shutil.copy(r['review_thumbnail'], f'{out}/review/{aid}_{os.path.basename(r["review_thumbnail"])}'); entry['review_thumbnail'] = f'review/{aid}_{os.path.basename(r["review_thumbnail"])}'
         if r.get('segment_ids'): entry['chapter'] = sorted({segs[s]['chapter'] for s in r['segment_ids'] if s in segs and 'chapter' in segs[s]}) or None
         if r.get('keyword_hits'): entry['relevance_reason'] = 'keyword matches: ' + ', '.join(r['keyword_hits'])

@@ -86,7 +86,7 @@ def main():
             up = ent['usage_permissions']
             if OPEN.match(up) and label == 'file': ent['editor_eligible'], ent['eligibility_reason'] = True, 'open licence (attribution required)'
             elif up.startswith('approved by') and label == 'file': ent['editor_eligible'], ent['eligibility_reason'] = True, 'human-approved: ' + up
-            elif (ent.get('original_url') in approved or ent.get('page_url') in approved) and label == 'file': ent['editor_eligible'], ent['eligibility_reason'] = True, 'human-approved (permissions.json)'
+            elif (ent.get('original_url') in approved or ent.get('page_url') in approved): ent['editor_eligible'], ent['eligibility_reason'] = True, 'human-approved (permissions.json)'
             else: ent['eligibility_reason'] = 'needs human permission decision (usage unverified)'
             manifest.append(ent); stats[{'images': 'images', 'videos': 'videos', 'screenshots': 'screenshots'}[sub]] += 1
         if not fp and not sp:

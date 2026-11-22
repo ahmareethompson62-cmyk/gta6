@@ -1,0 +1,26 @@
+{
+ "project": "rockstar-has-changed-press",
+ "sources": [
+  {
+   "label": "vi-videos",
+   "zip_url": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Videos.zip",
+   "page_url": "https://www.rockstargames.com/VI/media",
+   "creator": "Rockstar Games",
+   "approval": "the user's chat answer on 2026-11-21 (verbatim: 'Official Rockstar/publisher press media' was ticked when asked which new material may be used): official Rockstar press-kit media for credited commentary use. Not a licence."
+  },
+  {
+   "label": "vi-shots",
+   "zip_url": "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Screenshots.zip",
+   "page_url": "https://www.rockstargames.com/VI/media",
+   "creator": "Rockstar Games",
+   "approval": "the user's chat answer on 2026-11-21 (verbatim: 'Official Rockstar/publisher press media' was ticked when asked which new material may be used): official Rockstar press-kit media for credited commentary use. Not a licence."
+  },
+  {
+   "label": "vi-art",
+   "zip_url": "https://media-rockstargames-com.akamaized.net/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip",
+   "page_url": "https://www.rockstargames.com/VI/media",
+   "creator": "Rockstar Games",
+   "approval": "the user's chat answer on 2026-11-21 (verbatim: 'Official Rockstar/publisher press media' was ticked when asked which new material may be used): official Rockstar press-kit media for credited commentary use. Not a licence."
+  }
+ ]
+}

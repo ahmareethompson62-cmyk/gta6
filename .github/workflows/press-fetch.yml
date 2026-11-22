@@ -1,0 +1,29 @@
+name: press-fetch
+# Downloads official publisher press-kit zips on a GitHub runner (the sandbox cannot reach those hosts) and commits the files + manifest to branch `press-media`.
+# Trigger: push of research_runs/press_trigger.json ({"plan": "research_plans/press-*.json", "nonce": "..."}).
+on:
+  push:
+    paths: ['research_runs/press_trigger.json']
+permissions:
+  contents: write
+jobs:
+  press:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install requests pillow
+      - run: |
+          PLAN=$(jq -r .plan research_runs/press_trigger.json)
+          mkdir -p /tmp/pm && python3 media_researcher/press.py "$PLAN" /tmp/pm
+          du -sh /tmp/pm/*; find /tmp/pm -type f -size +95M -print
+      - name: Commit to press-media
+        run: |
+          RUN=run-${{ github.run_id }}
+          git config user.name "press-fetch[bot]"; git config user.email "noreply@github.com"
+          git fetch origin press-media 2>/dev/null && git checkout press-media || git checkout --orphan press-media
+          git rm -rf . >/dev/null 2>&1 || true
+          mkdir -p $RUN && cp -r /tmp/pm/* $RUN/
+          git add $RUN && git commit -qm "press media $RUN" && git push origin HEAD:press-media

@@ -1,0 +1,594 @@
+[
+ {
+  "i": 0,
+  "para": 0,
+  "start": 0.07,
+  "end": 3.21,
+  "text": "Rockstar used to make games that dared you to be offended.",
+  "matched": 0.7272727272727273
+ },
+ {
+  "i": 1,
+  "para": 0,
+  "start": 3.62,
+  "end": 4.1,
+  "text": "Now?",
+  "matched": 1.0
+ },
+ {
+  "i": 2,
+  "para": 0,
+  "start": 4.44,
+  "end": 11.54,
+  "text": "Rockstar posts a Halloween promo about a driverless car, and plenty of fans reply by asking for GTA news instead.",
+  "matched": 0.85
+ },
+ {
+  "i": 3,
+  "para": 1,
+  "start": 11.93,
+  "end": 16.28,
+  "text": "So what happened to the studio that once turned its own scandal into a statue?",
+  "matched": 1.0
+ },
+ {
+  "i": 4,
+  "para": 2,
+  "start": 16.28,
+  "end": 17.37,
+  "text": "Let's go back.",
+  "matched": 0.6666666666666666
+ },
+ {
+  "i": 5,
+  "para": 2,
+  "start": 17.89,
+  "end": 25.64,
+  "text": "Grand Theft Auto III gave us Donald Love, a real estate tycoon that critics and fans read as a Trump parody, with a cannibalism habit.",
+  "matched": 0.6
+ },
+ {
+  "i": 6,
+  "para": 2,
+  "start": 25.8,
+  "end": 34.06,
+  "text": "Vice City had about three times as much talk radio as GTA III, built on exaggerated callers and the style of host Lazlow Jones.",
+  "matched": 0.7083333333333334
+ },
+ {
+  "i": 7,
+  "para": 2,
+  "start": 34.06,
+  "end": 46.27,
+  "text": "San Andreas had eleven radio stations and more than three times as many in-game commercials as GTA III, and Dan Houser said the target was the broader weirdness of American consumerism and action movies.",
+  "matched": 0.9142857142857143
+ },
+ {
+  "i": 8,
+  "para": 3,
+  "start": 46.7,
+  "end": 47.41,
+  "text": "Then GTA IV.",
+  "matched": 0.3333333333333333
+ },
+ {
+  "i": 9,
+  "para": 3,
+  "start": 47.57,
+  "end": 55.66,
+  "text": "A lawyer named Tom Goldberg, written as a jab at Jack Thompson, the real lawyer who spent years going after video games.",
+  "matched": 1.0
+ },
+ {
+  "i": 10,
+  "para": 3,
+  "start": 55.99,
+  "end": 59.2,
+  "text": "Rockstar took the guy attacking them and put him in the game.",
+  "matched": 1.0
+ },
+ {
+  "i": 11,
+  "para": 3,
+  "start": 59.53,
+  "end": 62.02,
+  "text": "That is not a studio asking for permission.",
+  "matched": 1.0
+ },
+ {
+  "i": 12,
+  "para": 3,
+  "start": 62.02,
+  "end": 70.36,
+  "text": "And when the Hot Coffee scandal dragged politicians into it, Rockstar's reply in GTA IV was a Statue of Liberty parody holding a coffee cup.",
+  "matched": 0.84
+ },
+ {
+  "i": 13,
+  "para": 3,
+  "start": 70.36,
+  "end": 72.08,
+  "text": "Subtle, it was not.",
+  "matched": 0.75
+ },
+ {
+  "i": 14,
+  "para": 4,
+  "start": 72.08,
+  "end": 78.62,
+  "text": "GTA V gave us Jock Cranley, a washed-up action star running for governor, a Schwarzenegger parody.",
+  "matched": 0.7058823529411765
+ },
+ {
+  "i": 15,
+  "para": 4,
+  "start": 78.88,
+  "end": 83.44,
+  "text": "And LifeInvader, which, yes, is Facebook with the serial numbers filed off.",
+  "matched": 1.0
+ },
+ {
+  "i": 16,
+  "para": 5,
+  "start": 83.78,
+  "end": 84.63,
+  "text": "Notice the pattern.",
+  "matched": 1.0
+ },
+ {
+  "i": 17,
+  "para": 5,
+  "start": 84.97,
+  "end": 87.84,
+  "text": "Nobody was safe, including Rockstar itself.",
+  "matched": 1.0
+ },
+ {
+  "i": 18,
+  "para": 5,
+  "start": 88.14,
+  "end": 91.34,
+  "text": "The old Rockstar picked a target, aimed, and fired.",
+  "matched": 1.0
+ },
+ {
+  "i": 19,
+  "para": 5,
+  "start": 91.61,
+  "end": 94.7,
+  "text": "It had a personality, and the personality had teeth.",
+  "matched": 0.8888888888888888
+ },
+ {
+  "i": 20,
+  "para": 6,
+  "start": 95.05,
+  "end": 96.38,
+  "text": "Now, the modern Rockstar.",
+  "matched": 1.0
+ },
+ {
+  "i": 21,
+  "para": 6,
+  "start": 97.14,
+  "end": 102.57,
+  "text": "In 2018, Dan Houser said he and the senior writing team had worked 100-hour weeks.",
+  "matched": 0.8125
+ },
+ {
+  "i": 22,
+  "para": 6,
+  "start": 102.81,
+  "end": 107.08,
+  "text": "He later clarified it was a four-person team, for three weeks, not years.",
+  "matched": 0.9285714285714286
+ },
+ {
+  "i": 23,
+  "para": 6,
+  "start": 107.36,
+  "end": 107.71,
+  "text": "Fine.",
+  "matched": 1.0
+ },
+ {
+  "i": 24,
+  "para": 6,
+  "start": 107.98,
+  "end": 111.43,
+  "text": "But that was the first time many fans heard how the legend was built.",
+  "matched": 1.0
+ },
+ {
+  "i": 25,
+  "para": 7,
+  "start": 111.77,
+  "end": 113.69,
+  "text": "And then came October 2025.",
+  "matched": 0.8
+ },
+ {
+  "i": 26,
+  "para": 8,
+  "start": 114.41,
+  "end": 118.12,
+  "text": "More than thirty Rockstar employees were dismissed, according to reporting.",
+  "matched": 1.0
+ },
+ {
+  "i": 27,
+  "para": 8,
+  "start": 118.49,
+  "end": 121.66,
+  "text": "Rockstar, importantly, never confirmed that number.",
+  "matched": 1.0
+ },
+ {
+  "i": 28,
+  "para": 8,
+  "start": 121.96,
+  "end": 128.35,
+  "text": "It said it acted against, quote, \"a small number of individuals\" for sharing confidential information in a public forum.",
+  "matched": 1.0
+ },
+ {
+  "i": 29,
+  "para": 8,
+  "start": 128.66,
+  "end": 134.77,
+  "text": "It said, quote, \"This was in no way related to people's right to join a union or engage in union activities.\"",
+  "matched": 0.9047619047619048
+ },
+ {
+  "i": 30,
+  "para": 9,
+  "start": 135.08,
+  "end": 142.86,
+  "text": "The union, the IWGB, says that forum was a private Discord, and calls the firings, quote, \"plain and simple union busting.\"",
+  "matched": 0.9047619047619048
+ },
+ {
+  "i": 31,
+  "para": 10,
+  "start": 143.17,
+  "end": 144.49,
+  "text": "Here's what we actually know.",
+  "matched": 1.0
+ },
+ {
+  "i": 32,
+  "para": 10,
+  "start": 144.78,
+  "end": 149.53,
+  "text": "The union filed legal claims for victimisation, collective dismissal and blacklisting.",
+  "matched": 1.0
+ },
+ {
+  "i": 33,
+  "para": 10,
+  "start": 149.89,
+  "end": 158.15,
+  "text": "In January, a tribunal refused the workers interim relief, saying it could not conclude it was likely that union membership was the principal reason.",
+  "matched": 0.8333333333333334
+ },
+ {
+  "i": 34,
+  "para": 10,
+  "start": 158.56,
+  "end": 160.19,
+  "text": "That was not a final ruling.",
+  "matched": 1.0
+ },
+ {
+  "i": 35,
+  "para": 10,
+  "start": 160.59,
+  "end": 164.21,
+  "text": "In June, the tribunal refused to throw out the blacklisting claims.",
+  "matched": 0.8181818181818182
+ },
+ {
+  "i": 36,
+  "para": 10,
+  "start": 164.58,
+  "end": 167.84,
+  "text": "And this week, in Glasgow, the closing arguments wrapped up.",
+  "matched": 1.0
+ },
+ {
+  "i": 37,
+  "para": 10,
+  "start": 168.23,
+  "end": 171.39,
+  "text": "Rockstar's lawyer said the workers were \"caught red-handed.\"",
+  "matched": 0.8888888888888888
+ },
+ {
+  "i": 38,
+  "para": 10,
+  "start": 171.82,
+  "end": 176.29,
+  "text": "The claimants' lawyers said management acted as union membership approached ten percent.",
+  "matched": 1.0
+ },
+ {
+  "i": 39,
+  "para": 10,
+  "start": 176.63,
+  "end": 177.93,
+  "text": "Those are claims.",
+  "matched": 1.0
+ },
+ {
+  "i": 40,
+  "para": 10,
+  "start": 178.23,
+  "end": 183.52,
+  "text": "Neither side has been proven right yet, and the judge has said she cannot give a timeframe for a judgment.",
+  "matched": 0.85
+ },
+ {
+  "i": 41,
+  "para": 11,
+  "start": 183.82,
+  "end": 186.87,
+  "text": "So no, we are not going to pretend we know the motive.",
+  "matched": 0.6666666666666666
+ },
+ {
+  "i": 42,
+  "para": 11,
+  "start": 187.25,
+  "end": 188.48,
+  "text": "A judge will decide that.",
+  "matched": 1.0
+ },
+ {
+  "i": 43,
+  "para": 11,
+  "start": 188.82,
+  "end": 189.94,
+  "text": "But look at the timing.",
+  "matched": 0.8
+ },
+ {
+  "i": 44,
+  "para": 11,
+  "start": 190.42,
+  "end": 199.77,
+  "text": "Rockstar says it dismissed people over what was shared in a Discord, while the biggest game of its life was in the pipeline, and now a union vote is running while the game is out.",
+  "matched": 0.7714285714285715
+ },
+ {
+  "i": 45,
+  "para": 11,
+  "start": 200.06,
+  "end": 204.18,
+  "text": "That is not exactly the vibe of a studio that doesn't take itself seriously.",
+  "matched": 0.7857142857142857
+ },
+ {
+  "i": 46,
+  "para": 12,
+  "start": 204.53,
+  "end": 206.02,
+  "text": "And the voice has changed too.",
+  "matched": 0.6666666666666666
+ },
+ {
+  "i": 47,
+  "para": 12,
+  "start": 206.39,
+  "end": 215.61,
+  "text": "Bloomberg reported that in 2020 Rockstar quietly shelved a planned GTA Online mode, Cops 'n' Crooks, over how it would look during the debate about policing.",
+  "matched": 0.8076923076923077
+ },
+ {
+  "i": 48,
+  "para": 12,
+  "start": 215.99,
+  "end": 218.89,
+  "text": "That's reported by Bloomberg, from unnamed sources.",
+  "matched": 1.0
+ },
+ {
+  "i": 49,
+  "para": 12,
+  "start": 219.16,
+  "end": 220.97,
+  "text": "Companies are allowed to be careful.",
+  "matched": 1.0
+ },
+ {
+  "i": 50,
+  "para": 12,
+  "start": 220.97,
+  "end": 224.55,
+  "text": "But the old Rockstar built its name by not being careful.",
+  "matched": 0.9090909090909091
+ },
+ {
+  "i": 51,
+  "para": 13,
+  "start": 224.96,
+  "end": 226.75,
+  "text": "Which brings us to GTA VI.",
+  "matched": 0.6666666666666666
+ },
+ {
+  "i": 52,
+  "para": 13,
+  "start": 227.25,
+  "end": 230.61,
+  "text": "It came out on the nineteenth, and the early reviews are glowing.",
+  "matched": 0.9166666666666666
+ },
+ {
+  "i": 53,
+  "para": 13,
+  "start": 230.61,
+  "end": 232.72,
+  "text": "But reviews are not the question.",
+  "matched": 0.8333333333333334
+ },
+ {
+  "i": 54,
+  "para": 13,
+  "start": 233.0,
+  "end": 234.78,
+  "text": "The question is whether it's funny.",
+  "matched": 1.0
+ },
+ {
+  "i": 55,
+  "para": 13,
+  "start": 235.1,
+  "end": 245.26,
+  "text": "Rockstar North's co-studio head Rob Nelson said they have to be careful that what they satirize does not feel dated, and that very specific political issues or memes will date quickly.",
+  "matched": 0.6875
+ },
+ {
+  "i": 56,
+  "para": 13,
+  "start": 245.26,
+  "end": 253.99,
+  "text": "A Rockstar senior vice president of narrative, Rupert Humphries, said they avoid simply mirroring reality, because you could just go outside and live in the real world.",
+  "matched": 0.9629629629629629
+ },
+ {
+  "i": 57,
+  "para": 13,
+  "start": 254.33,
+  "end": 254.82,
+  "text": "Smart?",
+  "matched": 1.0
+ },
+ {
+  "i": 58,
+  "para": 13,
+  "start": 255.07,
+  "end": 255.5,
+  "text": "Sure.",
+  "matched": 1.0
+ },
+ {
+  "i": 59,
+  "para": 13,
+  "start": 255.75,
+  "end": 256.24,
+  "text": "Safe?",
+  "matched": 1.0
+ },
+ {
+  "i": 60,
+  "para": 13,
+  "start": 256.47,
+  "end": 257.25,
+  "text": "Also yes.",
+  "matched": 1.0
+ },
+ {
+  "i": 61,
+  "para": 14,
+  "start": 257.64,
+  "end": 261.62,
+  "text": "Reportedly, the new approach avoids specific real people and movements.",
+  "matched": 1.0
+ },
+ {
+  "i": 62,
+  "para": 14,
+  "start": 263.01,
+  "end": 263.31,
+  "text": "That's a choice.",
+  "matched": 0.3333333333333333
+ },
+ {
+  "i": 63,
+  "para": 14,
+  "start": 263.1,
+  "end": 263.91,
+  "text": "It might be a good one.",
+  "matched": 0.8333333333333334
+ },
+ {
+  "i": 64,
+  "para": 14,
+  "start": 264.22,
+  "end": 267.78,
+  "text": "But satire that never names anybody is just a vibe.",
+  "matched": 0.8
+ },
+ {
+  "i": 65,
+  "para": 15,
+  "start": 267.9,
+  "end": 269.55,
+  "text": "So did Rockstar change?",
+  "matched": 1.0
+ },
+ {
+  "i": 66,
+  "para": 15,
+  "start": 269.86,
+  "end": 271.44,
+  "text": "Fans say the humor got safer.",
+  "matched": 0.8333333333333334
+ },
+ {
+  "i": 67,
+  "para": 15,
+  "start": 271.58,
+  "end": 278.88,
+  "text": "And the workers say the company got harder on the people who build the games, while Rockstar says it only acted on confidential leaks.",
+  "matched": 0.875
+ },
+ {
+  "i": 68,
+  "para": 15,
+  "start": 279.3,
+  "end": 280.69,
+  "text": "Maybe the game is brilliant.",
+  "matched": 1.0
+ },
+ {
+  "i": 69,
+  "para": 15,
+  "start": 280.86,
+  "end": 282.12,
+  "text": "Maybe it's still got bite.",
+  "matched": 0.8
+ },
+ {
+  "i": 70,
+  "para": 15,
+  "start": 282.46,
+  "end": 283.45,
+  "text": "I can't tell you that.",
+  "matched": 0.8
+ },
+ {
+  "i": 71,
+  "para": 16,
+  "start": 283.79,
+  "end": 288.13,
+  "text": "What I can tell you is that this studio built its legend by throwing punches.",
+  "matched": 0.9333333333333333
+ },
+ {
+  "i": 72,
+  "para": 16,
+  "start": 288.13,
+  "end": 289.71,
+  "text": "So tell me in the comments.",
+  "matched": 0.8333333333333334
+ },
+ {
+  "i": 73,
+  "para": 16,
+  "start": 289.71,
+  "end": 292.95,
+  "text": "Did Rockstar change for the worse, or are we just older?",
+  "matched": 0.9090909090909091
+ }
+]

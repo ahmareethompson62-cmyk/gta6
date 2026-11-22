@@ -103,7 +103,7 @@ jobs:
           m=json.load(open('/tmp/rr/asset_manifest.json'))
           for a in m['assets']:
               u=(a.get('usage_permissions') or '')
-              if a.get('filename') and not a['verification_status'].startswith('rejected') and (re.match(r'(CC|Creative Commons|Public domain|PD|open licence)',u,re.I) or (u.startswith('approved by') and COMMIT_APPROVED)):
+              if a.get('filename') and not a['verification_status'].startswith('rejected') and (re.match(r'(CC|Creative Commons|Public domain|PD|open licence)',u,re.I) or ((u.startswith('approved by') or a.get('editor_eligible')) and COMMIT_APPROVED)):
                   os.makedirs(RUN+'/media',exist_ok=True); shutil.copy('package/'+a['filename'],RUN+'/media/')
           PY
           git add $RUN && git commit -m "research results $RUN" && git push origin HEAD:research-results

@@ -1,0 +1,323 @@
+{
+ "project": "rockstar-has-changed",
+ "topic": "Rockstar Games: older satire, employee dispute, public image, GTA VI",
+ "segments": [
+  {
+   "id": "old-1",
+   "chapter": "Older Rockstar humor",
+   "narration": "GTA III to GTA V satire examples",
+   "keywords": [
+    "Statue of Liberty",
+    "Liberty",
+    "satire",
+    "GTA",
+    "Grand Theft Auto"
+   ]
+  },
+  {
+   "id": "emp-1",
+   "chapter": "Employee dismissals and IWGB",
+   "narration": "October 2025 dismissals, IWGB legal claims",
+   "keywords": [
+    "IWGB",
+    "Rockstar",
+    "union",
+    "dismissed",
+    "Discord",
+    "tribunal",
+    "Rockstar Games"
+   ]
+  },
+  {
+   "id": "emp-2",
+   "chapter": "Tribunal",
+   "narration": "Glasgow employment tribunal, closing submissions Nov 2026",
+   "keywords": [
+    "tribunal",
+    "Glasgow",
+    "Rockstar",
+    "IWGB",
+    "judge"
+   ]
+  },
+  {
+   "id": "img-1",
+   "chapter": "Public image",
+   "narration": "Cops n Crooks, Halloween promo, crunch 2018",
+   "keywords": [
+    "Rockstar",
+    "Houser",
+    "crunch",
+    "100-hour",
+    "Halloween"
+   ]
+  },
+  {
+   "id": "vi-1",
+   "chapter": "GTA VI",
+   "narration": "Launch, reviews, satire statements",
+   "keywords": [
+    "GTA VI",
+    "Grand Theft Auto VI",
+    "Rob Nelson",
+    "satire",
+    "Humphries"
+   ]
+  },
+  {
+   "id": "loc-edin",
+   "chapter": "Rockstar North",
+   "narration": "Edinburgh studio",
+   "keywords": [
+    "Edinburgh",
+    "Scotland"
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "id": "w-iwgb",
+   "type": "web",
+   "segment_ids": [
+    "emp-1"
+   ],
+   "keywords": [
+    "IWGB",
+    "Rockstar",
+    "union",
+    "dismissal",
+    "victimisation",
+    "blacklisting"
+   ],
+   "urls": [
+    "https://iwgb.org.uk/en/post/iwgb-issues-legal-claims-against-rockstar-over-unfair-dismissal-of-staff/"
+   ]
+  },
+  {
+   "id": "w-register",
+   "type": "web",
+   "segment_ids": [
+    "emp-1"
+   ],
+   "keywords": [
+    "Rockstar",
+    "union",
+    "Discord",
+    "IWGB",
+    "confidential"
+   ],
+   "urls": [
+    "https://www.theregister.com/2025/11/06/union_brands_rockstars_leak_claim/"
+   ]
+  },
+  {
+   "id": "w-pcg1",
+   "type": "web",
+   "segment_ids": [
+    "emp-1"
+   ],
+   "keywords": [
+    "Rockstar",
+    "fired",
+    "unannounced",
+    "union",
+    "forum"
+   ],
+   "urls": [
+    "https://www.pcgamer.com/games/rockstar-now-says-fired-employees-were-let-go-because-they-revealed-specific-game-features-from-upcoming-and-unannounced-titles-in-a-public-forum/"
+   ]
+  },
+  {
+   "id": "w-itv",
+   "type": "web",
+   "segment_ids": [
+    "emp-2"
+   ],
+   "keywords": [
+    "Rockstar",
+    "tribunal",
+    "red-handed",
+    "Glasgow",
+    "Grand Theft Auto"
+   ],
+   "urls": [
+    "https://www.itv.com/news/2026-11-18/staff-sacked-by-grand-theft-auto-developer-were-caught-red-handed-tribunal"
+   ]
+  },
+  {
+   "id": "w-tr",
+   "type": "web",
+   "segment_ids": [
+    "emp-2"
+   ],
+   "keywords": [
+    "Rockstar",
+    "interim relief",
+    "tribunal",
+    "dismissals"
+   ],
+   "urls": [
+    "https://www.techradar.com/gaming/new-ruling-in-rockstar-games-legal-battle-means-the-gta-6-studio-wont-be-forced-to-pay-fired-employees-interim-relief-we-regret-that-we-were-put-in-a-position-where-dismissals-were-necessary"
+   ]
+  },
+  {
+   "id": "w-pcg2",
+   "type": "web",
+   "segment_ids": [
+    "emp-2"
+   ],
+   "keywords": [
+    "Rockstar",
+    "tribunal",
+    "blacklisting",
+    "trial"
+   ],
+   "urls": [
+    "https://www.pcgamer.com/gaming-industry/rockstar-faces-legal-setback-as-uk-tribunal-allows-its-fired-workers-to-bring-every-one-of-their-union-busting-allegations-to-trial/"
+   ]
+  },
+  {
+   "id": "w-gr",
+   "type": "web",
+   "segment_ids": [
+    "vi-1"
+   ],
+   "keywords": [
+    "Rob Nelson",
+    "satirize",
+    "dated",
+    "GTA 6"
+   ],
+   "urls": [
+    "https://www.gamesradar.com/games/grand-theft-auto/rockstar-is-cautious-about-what-to-satirize-in-gta-6-specific-political-issues-or-memes-will-date-fast/"
+   ]
+  },
+  {
+   "id": "w-wccf",
+   "type": "web",
+   "segment_ids": [
+    "vi-1"
+   ],
+   "keywords": [
+    "Humphries",
+    "Horton",
+    "GTA VI",
+    "writers",
+    "satire"
+   ],
+   "urls": [
+    "https://wccftech.com/gta-vi-writers-sidestep-trump-maga-florida-satire-conspiracy-theories/"
+   ]
+  },
+  {
+   "id": "w-aj",
+   "type": "web",
+   "segment_ids": [
+    "vi-1"
+   ],
+   "keywords": [
+    "Grand Theft Auto VI",
+    "launch",
+    "reviews",
+    "Metacritic"
+   ],
+   "urls": [
+    "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait"
+   ]
+  },
+  {
+   "id": "w-sj",
+   "type": "web",
+   "segment_ids": [
+    "old-1"
+   ],
+   "keywords": [
+    "Donald Love",
+    "Statue of Happiness",
+    "Cranley",
+    "LifeInvader",
+    "parody"
+   ],
+   "urls": [
+    "https://www.superjumpmagazine.com/donald-trump-the-cannibal-twenty-seven-years-of-grand-theft-auto-parodies/"
+   ]
+  },
+  {
+   "id": "w-gs",
+   "type": "web",
+   "segment_ids": [
+    "img-1"
+   ],
+   "keywords": [
+    "Houser",
+    "100-hour",
+    "Red Dead Redemption 2",
+    "clarif"
+   ],
+   "urls": [
+    "https://gamespot.com/articles/rockstar-clarifies-red-dead-redemption-2-100-hour-/1100-6462550/"
+   ]
+  },
+  {
+   "id": "w-gx",
+   "type": "web",
+   "segment_ids": [
+    "img-1"
+   ],
+   "keywords": [
+    "Rockstar",
+    "Halloween",
+    "Cerberus",
+    "GTA Online"
+   ],
+   "urls": [
+    "https://gameranx.com/updates/id/555677/article/fans-feel-trolled-by-latest-rockstar-games-twitter-post/"
+   ]
+  },
+  {
+   "id": "commons",
+   "type": "commons",
+   "segment_ids": [
+    "old-1",
+    "loc-edin",
+    "emp-2"
+   ],
+   "keywords": [
+    "Statue of Liberty",
+    "Liberty",
+    "Edinburgh",
+    "Glasgow",
+    "tribunal",
+    "court"
+   ],
+   "min_width": 1400,
+   "limit": 6,
+   "queries": [
+    "Statue of Liberty",
+    "Edinburgh skyline",
+    "Glasgow City Chambers",
+    "Edinburgh Castle"
+   ]
+  },
+  {
+   "id": "openverse",
+   "type": "openverse",
+   "segment_ids": [
+    "old-1",
+    "loc-edin"
+   ],
+   "keywords": [
+    "Statue of Liberty",
+    "Edinburgh",
+    "Liberty"
+   ],
+   "min_width": 1400,
+   "limit": 6,
+   "queries": [
+    "Statue of Liberty New York",
+    "Edinburgh Scotland"
+   ]
+  }
+ ],
+ "rev": 1795308314
+}

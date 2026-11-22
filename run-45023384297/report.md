@@ -9,7 +9,7 @@ Records discovered: 74
 - Inaccessible sources: 4
 - Collected files awaiting usage/permission verification: 8
 - Worker errors: 0
-- Eligible for the editor now (open licence or human-approved): 3
+- Eligible for the editor now (open licence or human-approved): 11
 
 ## Inaccessible / failed
 - https://gamespot.com/articles/rockstar-clarifies-red-dead-redemption-2-100-hour-/1100-6462550/: http 403 or bot/consent wall

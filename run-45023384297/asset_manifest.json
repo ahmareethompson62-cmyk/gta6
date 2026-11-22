@@ -36,8 +36,8 @@
    "caption": null,
    "image_url": null,
    "context": null,
-   "editor_eligible": false,
-   "eligibility_reason": "needs human permission decision (usage unverified)"
+   "editor_eligible": true,
+   "eligibility_reason": "human-approved (permissions.json)"
   },
   {
    "asset_id": "A038",
@@ -141,8 +141,8 @@
    "caption": null,
    "image_url": null,
    "context": null,
-   "editor_eligible": false,
-   "eligibility_reason": "needs human permission decision (usage unverified)"
+   "editor_eligible": true,
+   "eligibility_reason": "human-approved (permissions.json)"
   },
   {
    "asset_id": "A041",
@@ -246,8 +246,8 @@
    "caption": null,
    "image_url": null,
    "context": null,
-   "editor_eligible": false,
-   "eligibility_reason": "needs human permission decision (usage unverified)"
+   "editor_eligible": true,
+   "eligibility_reason": "human-approved (permissions.json)"
   },
   {
    "asset_id": "A059",
@@ -317,8 +317,8 @@
    "caption": null,
    "image_url": null,
    "context": null,
-   "editor_eligible": false,
-   "eligibility_reason": "needs human permission decision (usage unverified)"
+   "editor_eligible": true,
+   "eligibility_reason": "human-approved (permissions.json)"
   },
   {
    "asset_id": "A061",
@@ -388,8 +388,8 @@
    "caption": null,
    "image_url": null,
    "context": null,
-   "editor_eligible": false,
-   "eligibility_reason": "needs human permission decision (usage unverified)"
+   "editor_eligible": true,
+   "eligibility_reason": "human-approved (permissions.json)"
   },
   {
    "asset_id": "A064",
@@ -595,8 +595,8 @@
    "caption": null,
    "image_url": null,
    "context": null,
-   "editor_eligible": false,
-   "eligibility_reason": "needs human permission decision (usage unverified)"
+   "editor_eligible": true,
+   "eligibility_reason": "human-approved (permissions.json)"
   },
   {
    "asset_id": "A071",
@@ -666,8 +666,8 @@
    "caption": null,
    "image_url": null,
    "context": null,
-   "editor_eligible": false,
-   "eligibility_reason": "needs human permission decision (usage unverified)"
+   "editor_eligible": true,
+   "eligibility_reason": "human-approved (permissions.json)"
   },
   {
    "asset_id": "A073",
@@ -987,8 +987,8 @@
    "caption": null,
    "image_url": null,
    "context": null,
-   "editor_eligible": false,
-   "eligibility_reason": "needs human permission decision (usage unverified)"
+   "editor_eligible": true,
+   "eligibility_reason": "human-approved (permissions.json)"
   },
   {
    "asset_id": "A045",
